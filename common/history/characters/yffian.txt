@@ -1,0 +1,29 @@
+CHARACTERS = {
+	c:YFF ?= {
+		create_character = {
+			first_name = "Wahyu"
+			last_name = "Ridiansyah"
+			historical = yes
+			culture = yiffian
+			ruler = yes
+			ig_leader = yes
+			birth_date = 1815.12.23
+			interest_group = ig_intelligentsia
+			ideology = ideology_positivist
+			traits = {
+				expert_political_operator
+				firebrand
+				literary
+				explorer
+				erudite
+				engineer
+				master_bureaucrat
+				celebrity_commander
+				masterful_diplomat
+				expert_colonial_administrator
+				persistent
+			}
+			dna = dna_wahyu_ridiansyah
+		}
+	}
+}

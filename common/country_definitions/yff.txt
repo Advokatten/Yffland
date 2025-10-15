@@ -1,0 +1,15 @@
+YFF = {
+	# Yffia (YFF)
+	color = {
+		4
+		39
+		104
+	}
+	country_type = unrecognized
+	tier = principality
+	religion = protestant
+	cultures = {
+		Yffian
+	}
+	capital = STATE_HAUSLAND
+}
