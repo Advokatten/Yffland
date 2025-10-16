@@ -27614,7 +27614,7 @@ STATES = {
 	}
 	s:STATE_NIGER_DELTA = {
 		create_state = {
-			country = c:IBO
+			country = c:YFF
 			owned_provinces = {
 				x016090
 				x1B328B
@@ -27634,6 +27634,7 @@ STATES = {
 				x80A090
 			}
 		}
+		add_homeland = cu:yffian
 		add_homeland = cu:ibo
 		add_homeland = cu:ibibio
 		add_homeland = cu:equatorial_bantu

@@ -42,7 +42,6 @@ STATE_HAUSALAND = {
 		"xF1D52F"
 	}
 	traits = {
-		"state_trait_malaria"
 		"state_trait_niger_river"
 	}
 	city = "xC76E76"
@@ -67,6 +66,7 @@ STATE_HAUSALAND = {
 		bg_coal_mining = 100
 		bg_lead_mining = 100
 		bg_sulfur_mining = 100
+		bg_gold_mining = 100
 	}
 	resource = {
 		type = "bg_rubber"
@@ -157,9 +157,7 @@ STATE_OUTER_HAUSALAND = {
 		"xECC181"
 	}
 	traits = {
-		"state_trait_malaria"
 		"state_trait_niger_river"
-		"state_trait_sahel"
 	}
 	city = "x5051A0"
 	farm = "x50D09F"
@@ -232,9 +230,6 @@ STATE_NIGERIA = {
 		"xF4C138"
 		"xF8AD48"
 	}
-	traits = {
-		"state_trait_malaria"
-	}
 	city = "xF8AD48"
 	farm = "xB99D24"
 	mine = "x0031D6"
@@ -302,9 +297,6 @@ STATE_EAST_HAUSALAND = {
 		"xF6F846"
 		"xF70F67"
 		"xFECA58"
-	}
-	traits = {
-		"state_trait_malaria"
 	}
 	city = "x436974"
 	farm = "x52057E"
@@ -419,4 +411,67 @@ STATE_NORTH_CAMEROON = {
 		type = "bg_rubber"
 		undiscovered_amount = 500
 	}
+}
+
+STATE_NIGER_DELTA = {
+	id = 214
+	subsistence_building = "building_subsistence_farms"
+	provinces = {
+		"x016090"
+		"x01A050"
+		"x1B328B"
+		"x255D8A"
+		"x337660"
+		"x4D3C3A"
+		"x553813"
+		"x80A090"
+		"x8B459B"
+		"x90B6CB"
+		"x93634A"
+		"x938816"
+		"xA8A592"
+		"xC82CCC"
+		"xD16652"
+		"xD8056B"
+	}
+	traits = {
+		"state_trait_niger_river"
+	}
+	city = "x255D8A"
+	port = "x01A050"
+	farm = "xA8A592"
+	mine = "xD8056B"
+	wood = "x4D3C3A"
+	arable_land = 200
+	arable_resources = {
+		"bg_millet_farms"
+		"bg_livestock_ranches"
+		"bg_coffee_plantations"
+		"bg_cotton_plantations"
+		"bg_dye_plantations"
+		"bg_tobacco_plantations"
+		"bg_sugar_plantations"
+		"bg_banana_plantations"
+		"bg_silk_plantations"
+		"bg_opium_plantations"
+		"bg_tea_plantations"
+	}
+	capped_resources = {
+		bg_logging = 200
+		bg_fishing = 200
+		bg_coal_mining = 200
+		bg_iron_mining = 200
+		bg_lead_mining = 200
+		bg_sulfur_mining = 200
+		bg_whaling = 200
+	}
+	resource = {
+		type = "bg_rubber"
+		undiscovered_amount = 200
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 200
+	}
+	naval_exit_id = 3091
 }

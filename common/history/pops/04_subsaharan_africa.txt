@@ -440,7 +440,7 @@
 	s:STATE_NIGER_DELTA = {
 		region_state:IBO = {
 			create_pop = {
-				culture = ibo
+				culture = yiffian
 				size = 1048000
 			}
 			create_pop = {
@@ -601,7 +601,7 @@
 			}
 			create_pop = {
 				culture = yiffian
-				religion = animist
+				religion = protestant
 				size = 548400
 			}
 			create_pop = {
