@@ -602,7 +602,7 @@
 			create_pop = {
 				culture = yiffian
 				religion = animist
-				size = 248400
+				size = 548400
 			}
 			create_pop = {
 				culture = fulbe

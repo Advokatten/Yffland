@@ -2526,6 +2526,37 @@
 				}
 			}
 			create_building = {
+				# Amalgamation of the four Ancient Universities of Scotland
+				building = "building_university"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 10
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_scholastic_education"
+					"pm_religious_academia"
+				}
+			}
+			create_building = {
+				building = "building_trade_center"
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
 				building = "building_millet_farm"
 				add_ownership = {
 					building = {
@@ -2657,6 +2688,21 @@
 				}
 			}
 			create_building = {
+				building = "building_trade_center"
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_NIGERIA"
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
 				building = "building_coffee_plantation"
 				add_ownership = {
 					building = {
@@ -2692,7 +2738,7 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:YFF"
-						levels = 3
+						levels = 5
 						region = "STATE_NIGERIA"
 					}
 				}
@@ -2921,6 +2967,54 @@
 				}
 			}
 			create_building = {
+				building = "building_trade_center"
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_EAST_HAUSALAND"
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_EAST_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_no_hardwood"
+					"pm_saw_mills"
+					"pm_no_equipment"
+					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 20
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_professional_bureaucrats"
+					"pm_hereditary_bureaucrats"
+					"pm_religious_bureaucrats"
+				}
+			}
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -3005,6 +3099,21 @@
 					"pm_no_secondary"
 					"pm_tools_disabled"
 				}
+			}
+			create_building = {
+				building = "building_trade_center"
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_NORTH_CAMEROON"
+					}
+				}
+				reserves = 1
 			}
 			create_building = {
 				building = "building_barracks"
