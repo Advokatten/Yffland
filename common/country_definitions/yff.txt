@@ -5,7 +5,7 @@ YFF = {
 		39
 		104
 	}
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	religion = protestant
 	cultures = {

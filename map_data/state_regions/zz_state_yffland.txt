@@ -321,6 +321,7 @@ STATE_EAST_HAUSALAND = {
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
 		"bg_opium_plantations"
+		"bg_wheat_farms"
 	}
 	capped_resources = {
 		bg_logging = 100
