@@ -2503,7 +2503,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_soil_enriching_farming"
 					"pm_no_secondary"
 					"pm_tools_disabled"
 				}
@@ -2618,7 +2618,7 @@
 			}
 			reserves = 1
 			activate_production_methods = {
-				"pm_simple_farming"
+				"pm_soil_enriching_farming"
 				"pm_no_secondary"
 				"pm_tools_disabled"
 			}
@@ -2638,7 +2638,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_soil_enriching_farming"
 					"pm_no_secondary"
 					"pm_tools_disabled"
 				}
@@ -2689,6 +2689,87 @@
 					"pm_no_explosives"
 					"pm_no_steam_automation"
 					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_NIGERIA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_hand_tools"
+					"pm_saw_pit"
+					"pm_no_steam_automation"
+					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_sulphur_mine"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 3
+						region = "STATE_NIGERIA"
+					}
+				}
+			}
+			reserves = 1
+			activate_production_methods = {
+				"pm_picks_and_shovels_building_sulphur_mine"
+				"pm_no_explosives"
+				"pm_no_steam_automation"
+				"pm_road_carts"
+			}
+		}
+		create_building = {
+			building = "building_chemical_plants"
+			add_ownership = {
+				building = {
+					type = "building_manor_house"
+					country = "c:YFF"
+					levels = 3
+					region = "STATE_NIGERIA"
+				}
+			}
+			reserves = 1
+			activate_production_methods = {
+				"pm_artificial_fertilizer"
+			}
+			create_building = {
+				building = "building_explosives_factory"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 1
+						region = "STATE_NIGERIA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_leblanc_process"
+				}
+			}
+			create_building = {
+				building = "building_munition_plants"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 3
+						region = "STATE_NIGERIA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_percussion_caps"
+					"pm_automation_disabled"
 				}
 			}
 			create_building = {
@@ -2802,7 +2883,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_soil_enriching_farming"
 					"pm_no_secondary"
 					"pm_tools_disabled"
 				}
@@ -2841,7 +2922,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_soil_enriching_farming"
 					"pm_no_secondary"
 					"pm_tools_disabled"
 				}
