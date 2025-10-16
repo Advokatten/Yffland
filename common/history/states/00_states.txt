@@ -27548,6 +27548,13 @@ STATES = {
 				x96C7B6
 				x61CC39
 				xC76E76
+				xF0DC5B
+				x69DA37
+				xF1D52F
+				xDDE2EB
+				x8CA417
+				x9D553E
+				xC06110
 			}
 		}
 		add_homeland = cu:yiffian
