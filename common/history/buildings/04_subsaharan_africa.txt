@@ -2746,9 +2746,9 @@
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:FRA"
+						country = "c:YFF"
 						levels = 4
-						region = "STATE_LORRAINE"
+						region = "STATE_NIGERIA"
 					}
 				}
 				reserves = 1
