@@ -2474,8 +2474,8 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_hand_logging"
-					"pm_no_sawmill"	
-					
+					"pm_no_sawmill"
+				}
 			}
 			create_building = {
 				building = "building_textile_mills"
