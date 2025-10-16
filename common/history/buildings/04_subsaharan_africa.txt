@@ -2473,8 +2473,10 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_hand_logging"
-					"pm_no_sawmill"
+					"pm_hardwood"
+					"pm_saw_mills"
+					"pm_no_equipment"
+					"pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2733,25 +2735,25 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_hand_tools"
-					"pm_saw_pit"
-					"pm_no_steam_automation"
+					"pm_no_hardwood"
+					"pm_saw_mills"
+					"pm_no_equipment"
 					"pm_road_carts"
 				}
 			}
 			create_building = {
-				building = "building_sulphur_mine"
+				building = "building_sulfur_mine"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
-						country = "c:YFF"
-						levels = 3
-						region = "STATE_NIGERIA"
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_LORRAINE"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_picks_and_shovels_building_sulphur_mine"
+					"pm_atmospheric_engine_pump_building_sulfur_mine"
 					"pm_no_explosives"
 					"pm_no_steam_automation"
 					"pm_road_carts"
