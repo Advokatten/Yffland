@@ -2725,7 +2725,7 @@
 				building = "building_motor_industry"
 				add_ownership = {
 					building = {
-						type = "buildingf_manor_house"
+						type = "building_manor_house"
 						country = "c:YFF"
 						levels = 1
 						region = "STATE_NIGERIA"
@@ -2740,8 +2740,8 @@
 			create_building = {
 				building = "building_steel_mills"
 				add_ownership = {
-					company = {
-						type = company_john_cockerill
+					building = {
+						type = "building_manor_house"
 						country = "c:YFF"
 						levels = 2
 						region = "STATE_NIGERIA"
@@ -2884,6 +2884,24 @@
 				activate_production_methods = {
 					"pm_pig_iron"
 					"pm_automation_disabled"
+				}
+			}
+			create_building = {
+				building = "building_lead_mine"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 1
+						region = "STATE_NIGERIA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_lead_mine"
+					"pm_no_explosives"
+					"pm_no_steam_automation"
+					"pm_road_carts"
 				}
 			}
 			create_building = {
