@@ -2462,6 +2462,22 @@
 				}
 			}
 			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_early_trains"
+					"pm_wooden_passenger_carriages"
+				}
+			}
+			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -2964,6 +2980,22 @@
 				activate_production_methods = {
 					"default_building_tobacco_plantation"
 					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_EAST_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_early_trains"
+					"pm_wooden_passenger_carriages"
 				}
 			}
 			create_building = {
