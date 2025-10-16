@@ -2446,10 +2446,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mill"
+				building = "building_paper_mills"
 				add_ownership = {
 					building = {
-						type = "building_government_administration"
+						type = "building_manor_house"
 						country = "c:YFF"
 						levels = 5
 						region = "STATE_HAUSALAND"
@@ -2465,7 +2465,7 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						type = "building_government_administration"
+						type = "building_manor_house"
 						country = "c:YFF"
 						levels = 5
 						region = "STATE_HAUSALAND"
@@ -2558,23 +2558,21 @@
 					"pm_unrefrigerated"
 				}
 			}
-			region_state:YFF = {
-				create_building = {
-					building = "building_millet_farm"
-					add_ownership = {
-						building = {
-							type = "building_manor_house"
-							country = "c:YFF"
-							levels = 1
-							region = "STATE_HAUSALAND"
-						}
+			create_building = {
+				building = "building_millet_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 1
+						region = "STATE_HAUSALAND"
 					}
-					reserves = 1
-					activate_production_methods = {
-						"pm_simple_farming"
-						"pm_no_secondary"
-						"pm_tools_disabled"
-					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_no_secondary"
+					"pm_tools_disabled"
 				}
 			}
 		}
