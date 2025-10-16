@@ -2435,15 +2435,47 @@
 				add_ownership = {
 					country = {
 						country = "c:YFF"
-						levels = 5
+						levels = 20
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_organization"
+					"pm_professional_bureaucrats"
 					"pm_hereditary_bureaucrats"
 					"pm_religious_bureaucrats"
 				}
+			}
+			create_building = {
+				building = "building_paper_mill"
+				add_ownership = {
+					building = {
+						type = "building_government_administration"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pulp_pressing"
+					"pm_automation_disabled"
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_government_administration"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_hand_logging"
+					"pm_no_sawmill"	
+					
 			}
 			create_building = {
 				building = "building_textile_mills"
