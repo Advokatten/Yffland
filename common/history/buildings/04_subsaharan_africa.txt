@@ -2795,7 +2795,7 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:YFF"
-						levels = 4
+						levels = 2
 						region = "STATE_NIGERIA"
 					}
 				}
