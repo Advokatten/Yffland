@@ -27550,18 +27550,6 @@ STATES = {
 				xC76E76
 			}
 		}
-		create_state = {
-			country = c:BRG
-			owned_provinces = {
-				xF0DC5B
-				x69DA37
-				xF1D52F
-				xDDE2EB
-				x8CA417
-				x9D553E
-				xC06110
-			}
-		}
 		add_homeland = cu:yiffian
 		add_homeland = cu:fulbe
 		add_homeland = cu:hausa
@@ -27679,57 +27667,6 @@ STATES = {
 				xAAB357
 				xD4E488
 				x119060
-			}
-		}
-		create_state = {
-			country = c:YFF
-			owned_provinces = {
-				x081330
-				xB6B510
-				x48B5C1
-				x93455F
-				x7C3FD8
-				xD36F0B
-				xB03D4B
-				x1622C1
-				xECC181
-				x3D2745
-				xADFCBB
-				x80D945
-				xB354F7
-				x0A6F02
-				xE373B7
-				x50D09F
-				xC9BC55
-			}
-		}
-		create_state = {
-			country = c:BOR
-			owned_provinces = {
-				x291801
-				x91E205
-				x96E7A9
-				x95B3FC
-				xB5CA43
-				x2AD7EB
-				x281C77
-				x6E2718
-				x59CF4B
-				xB78BE4
-				x98907F
-				xD1320A
-				x064C0C
-				xAD963A
-				x1110E0
-				xC438ED
-				x1659B8
-				xA42F37
-				x51E372
-				x583B5E
-				x37C83B
-				xA6FB18
-				xAEAED9
-				xB4574B
 			}
 		}
 		add_homeland = cu:yiffian
@@ -28867,26 +28804,6 @@ STATES = {
 				x2DF456
 				x566A89
 				xD9DF55
-			}
-		}
-		create_state = {
-			country = c:YFF
-			owned_provinces = {
-				x62BA14
-				x0BFE68
-				xEA982F
-				x5B8020
-				x8A07D7
-				x9611CE
-				x47CD3B
-				x09FC06
-				x459F5A
-				xDE478C
-				x7ECE9E
-				xF24DEA
-				x802050
-				x361F6A
-				xF9A3A7
 			}
 		}
 		add_homeland = cu:yiffian
