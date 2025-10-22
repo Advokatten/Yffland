@@ -2529,19 +2529,6 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
-				add_ownership = {
-					country = {
-						country = "c:YFF"
-						levels = 40
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_no_organization"
-				}
-			}
-			create_building = {
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
@@ -2646,20 +2633,6 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
-				add_ownership = {
-					country = {
-						country = "c:YFF"
-						levels = 20
-						region = "STATE_OUTER_HAUSALAND"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_no_organization"
-				}
-			}
-			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
@@ -2748,20 +2721,6 @@
 				activate_production_methods = {
 					"default_building_coffee_plantation"
 					"pm_road_carts"
-				}
-			}
-			create_building = {
-				building = "building_barracks"
-				add_ownership = {
-					country = {
-						country = "c:YFF"
-						levels = 20
-						region = "STATE_NIGERIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_no_organization"
 				}
 			}
 			create_building = {
@@ -3063,20 +3022,6 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
-				add_ownership = {
-					country = {
-						country = "c:YFF"
-						levels = 20
-						region = "STATE_EAST_HAUSALAND"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_no_organization"
-				}
-			}
-			create_building = {
 				building = "building_cotton_plantation"
 				add_ownership = {
 					building = {
@@ -3162,20 +3107,6 @@
 					}
 				}
 				reserves = 1
-			}
-			create_building = {
-				building = "building_barracks"
-				add_ownership = {
-					country = {
-						country = "c:YFF"
-						levels = 20
-						region = "STATE_NORTH_CAMEROON"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_no_organization"
-				}
 			}
 		}
 	}

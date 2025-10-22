@@ -1,0 +1,149 @@
+MILITARY_FORMATIONS = {
+	c:YFF ?= {
+		# ======================
+		# ======= ARMIES =======
+		# ======================
+		# 1) 1st Yffian Army — OP (offense)
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = 1st_Yffian_Army
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_HAUSLAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_HAUSLAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_HAUSLAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_HAUSLAND
+				count = 5
+				save_scope_as = yff_army_1
+			}
+		}
+		# 2) 2nd Yffian Army — OP (offense)
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = 2nd_Yffian_Army
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_OUTER_HAUSALAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_OUTER_HAUSALAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_OUTER_HAUSALAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_OUTER_HAUSALAND
+				count = 5
+			}
+			save_scope_as = yff_army_2
+		}
+		# 3) 3rd Yffian Army — OP (offense)
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = 3rd_Yffian_Army
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_NIGERIA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_NIGERIA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_NIGERIA
+				count = 5
+			}
+			save_scope_as = yff_army_3
+		}
+		# 4) 4th Yffian Army — OP (offense)
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = 4th_Yffian_Army
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_EAST_HAUSALAND
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_EAST_HAUSALAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_EAST_HAUSALAND
+				count = 5
+			}
+			save_scope_as = yff_army_4
+		}
+		# 5) 5th Yffian Army — OP (offense)
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = 5th_Yffian_Army
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_NORTH_CAMEROON
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_NORTH_CAMEROON
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_NORTH_CAMEROON
+				count = 5
+			}
+			save_scope_as = yff_army_5
+		}
+		# 6) Yffian Defense Army — DEFENSE-focused
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = Yffian_Defense_Army
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_HAUSLAND
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_HAUSLAND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_HAUSLAND
+				count = 5
+			}
+			save_scope_as = yff_army_6
+		}
+	}
+}
