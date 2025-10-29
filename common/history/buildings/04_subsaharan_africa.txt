@@ -2829,7 +2829,7 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:YFF"
-						levels = 2
+						levels = 5
 						region = "STATE_NIGERIA"
 					}
 				}
@@ -2987,6 +2987,23 @@
 				activate_production_methods = {
 					"pm_pulp_pressing"
 					"pm_automation_disabled"
+				}
+			}
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_handsewn_clothes"
+					"pm_no_luxury_clothes"
+					"pm_traditional_looms"
 				}
 			}
 			create_building = {
