@@ -342,10 +342,6 @@
 	s:STATE_HAUSALAND = {
 		region_state:YFF = {
 			create_pop = {
-				culture = yiffian
-				size = 538523
-			}
-			create_pop = {
 				culture = songhai
 				size = 24000
 			}
@@ -513,10 +509,6 @@
 		}
 		region_state:YFF = {
 			create_pop = {
-				culture = yiffian
-				size = 12752
-			}
-			create_pop = {
 				culture = dyula
 				size = 12040
 			}
@@ -600,11 +592,6 @@
 				size = 173200
 			}
 			create_pop = {
-				culture = yiffian
-				religion = protestant
-				size = 548400
-			}
-			create_pop = {
 				culture = fulbe
 				size = 98600
 			}
@@ -651,10 +638,6 @@
 	}
 	s:STATE_EAST_HAUSALAND = {
 		region_state:YFF = {
-			create_pop = {
-				culture = yiffian
-				size = 160202
-			}
 			create_pop = {
 				culture = hausa
 				religion = animist

@@ -3463,6 +3463,7 @@ STATES = {
 			}
 		}
 		add_homeland = cu:dixie
+		add_homeland = cu:yankee
 	}
 	s:STATE_WEST_VIRGINIA = {
 		create_state = {
@@ -3490,6 +3491,7 @@ STATES = {
 			}
 		}
 		add_homeland = cu:dixie
+		add_homeland = cu:yankee
 	}
 	s:STATE_MARYLAND = {
 		create_state = {
@@ -3507,6 +3509,7 @@ STATES = {
 			}
 		}
 		add_homeland = cu:dixie
+		add_homeland = cu:yankee
 	}
 	s:STATE_DELAWARE = {
 		create_state = {
@@ -3517,6 +3520,7 @@ STATES = {
 			}
 		}
 		add_homeland = cu:dixie
+		add_homeland = cu:yankee
 	}
 	s:STATE_PENNSYLVANIA = {
 		create_state = {
@@ -27548,6 +27552,11 @@ STATES = {
 				x96C7B6
 				x61CC39
 				xC76E76
+			}
+		}
+		create_state = {
+			country = c:BRG
+			owned_provinces = {
 				xF0DC5B
 				x69DA37
 				xF1D52F
@@ -27557,7 +27566,6 @@ STATES = {
 				xC06110
 			}
 		}
-		add_homeland = cu:yiffian
 		add_homeland = cu:fulbe
 		add_homeland = cu:hausa
 		add_homeland = cu:yoruba
@@ -27634,7 +27642,6 @@ STATES = {
 				x80A090
 			}
 		}
-		add_homeland = cu:yffian
 		add_homeland = cu:ibo
 		add_homeland = cu:ibibio
 		add_homeland = cu:equatorial_bantu
@@ -27675,6 +27682,11 @@ STATES = {
 				xAAB357
 				xD4E488
 				x119060
+			}
+		}
+		create_state = {
+			country = c:HAU
+			owned_provinces = {
 				x081330
 				xB6B510
 				x48B5C1
@@ -27692,6 +27704,11 @@ STATES = {
 				xE373B7
 				x50D09F
 				xC9BC55
+			}
+		}
+		create_state = {
+			country = c:BOR
+			owned_provinces = {
 				x291801
 				x91E205
 				x96E7A9
@@ -27718,7 +27735,6 @@ STATES = {
 				xB4574B
 			}
 		}
-		add_homeland = cu:yiffian
 		add_homeland = cu:hausa
 		add_homeland = cu:kanuri
 		add_homeland = cu:fulbe
@@ -27980,7 +27996,6 @@ STATES = {
 				xC89CB8
 			}
 		}
-		add_homeland = cu:yiffian
 		add_homeland = cu:hausa
 		add_homeland = cu:tiv
 		add_homeland = cu:equatorial_bantu
@@ -28022,7 +28037,6 @@ STATES = {
 				x827ADE
 			}
 		}
-		add_homeland = cu:yiffian
 		add_homeland = cu:hausa
 		add_homeland = cu:fulbe
 	}
@@ -28853,6 +28867,11 @@ STATES = {
 				x2DF456
 				x566A89
 				xD9DF55
+			}
+		}
+		create_state = {
+			country = c:BMM
+			owned_provinces = {
 				x62BA14
 				x0BFE68
 				xEA982F
@@ -28870,7 +28889,6 @@ STATES = {
 				xF9A3A7
 			}
 		}
-		add_homeland = cu:yiffian
 		add_homeland = cu:fulbe
 		add_homeland = cu:equatorial_bantu
 	}
@@ -35651,7 +35669,6 @@ STATES = {
 			state_type = unincorporated
 		}
 		add_homeland = cu:lithuanian
-		add_homeland = cu:polish
 	}
 	s:STATE_CHUKOTKA = {
 		create_state = {
@@ -45243,7 +45260,6 @@ STATES = {
 			}
 		}
 		add_homeland = cu:byelorussian
-		add_homeland = cu:russian
 	}
 	s:STATE_GREATER_POLAND = {
 		create_state = {
