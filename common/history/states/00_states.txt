@@ -27552,11 +27552,6 @@ STATES = {
 				x96C7B6
 				x61CC39
 				xC76E76
-			}
-		}
-		create_state = {
-			country = c:BRG
-			owned_provinces = {
 				xF0DC5B
 				x69DA37
 				xF1D52F
@@ -27574,7 +27569,7 @@ STATES = {
 	}
 	s:STATE_BENIN = {
 		create_state = {
-			country = c:BEN
+			country = c:YFF
 			owned_provinces = {
 				x7B4B80
 				xF1E4DA
@@ -27682,11 +27677,6 @@ STATES = {
 				xAAB357
 				xD4E488
 				x119060
-			}
-		}
-		create_state = {
-			country = c:HAU
-			owned_provinces = {
 				x081330
 				xB6B510
 				x48B5C1
@@ -27704,11 +27694,6 @@ STATES = {
 				xE373B7
 				x50D09F
 				xC9BC55
-			}
-		}
-		create_state = {
-			country = c:BOR
-			owned_provinces = {
 				x291801
 				x91E205
 				x96E7A9
@@ -28867,11 +28852,6 @@ STATES = {
 				x2DF456
 				x566A89
 				xD9DF55
-			}
-		}
-		create_state = {
-			country = c:BMM
-			owned_provinces = {
 				x62BA14
 				x0BFE68
 				xEA982F

@@ -1,5 +1,5 @@
+# Yffia (YFF)
 YFF = {
-	# Yffia (YFF)
 	color = {
 		4
 		39
@@ -9,7 +9,8 @@ YFF = {
 	tier = principality
 	religion = protestant
 	cultures = {
-		Yffian
+		hausa
+		fulbe
 	}
 	capital = STATE_HAUSLAND
 }

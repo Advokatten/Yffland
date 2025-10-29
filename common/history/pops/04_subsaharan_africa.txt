@@ -392,7 +392,7 @@
 		}
 	}
 	s:STATE_BENIN = {
-		region_state:BEN = {
+		region_state:YFF = {
 			create_pop = {
 				culture = edo
 				size = 493792
@@ -434,7 +434,7 @@
 		}
 	}
 	s:STATE_NIGER_DELTA = {
-		region_state:IBO = {
+		region_state:YFF = {
 			create_pop = {
 				culture = yiffian
 				size = 1048000
