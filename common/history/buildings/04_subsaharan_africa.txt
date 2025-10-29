@@ -2761,7 +2761,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:YFF"
-						levels = 1
+						levels = 5
 						region = "STATE_NIGERIA"
 					}
 				}
@@ -2777,7 +2777,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:YFF"
-						levels = 2
+						levels = 5
 						region = "STATE_NIGERIA"
 					}
 				}
@@ -2793,7 +2793,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:YFF"
-						levels = 5
+						levels = 10
 						region = "STATE_NIGERIA"
 					}
 				}
@@ -2910,7 +2910,7 @@
 					building = {
 						type = "building_tooling_workshops"
 						country = "c:YFF"
-						levels = 3
+						levels = 5
 						region = "STATE_NIGERIA"
 					}
 				}
@@ -2971,6 +2971,22 @@
 				activate_production_methods = {
 					"default_building_tobacco_plantation"
 					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_paper_mills"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pulp_pressing"
+					"pm_automation_disabled"
 				}
 			}
 			create_building = {
