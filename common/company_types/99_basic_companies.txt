@@ -136,7 +136,6 @@ company_basic_fabrics = {
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_meat
-		prestige_good_sea_island_cotton
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {
@@ -510,6 +509,9 @@ company_basic_oil = {
 	building_types = {
 		building_oil_rig
 	}
+	possible_prestige_goods = {
+		prestige_good_baku_oil
+	}
 	extension_building_types = {
 		building_coal_mine
 	}
@@ -697,6 +699,11 @@ company_basic_food = {
 	}
 	building_types = {
 		building_food_industry
+		building_millet_farm
+		building_livestock_ranch
+		building_cotton_plantation
+		building_vineyard_plantation
+		building_banana_plantation
 	}
 	extension_building_types = {
 		building_livestock_ranch
@@ -704,12 +711,12 @@ company_basic_food = {
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_groceries
-	}
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_groceries_complete_tt
-			has_variable = prestige_good_generic_groceries_var
-		}
+		prestige_good_smirnoff_vodka
+		prestige_good_acorn_fed_pork
+		prestige_good_sea_island_cotton
+		prestige_good_pannonian_patent_flour
+		prestige_good_champagne
+		prestige_good_gros_michel_banana
 	}
 	possible = {
 		any_scope_state = {
@@ -974,6 +981,7 @@ company_basic_metalworks = {
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_tools
+		prestige_good_burmese_teak
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {
@@ -1139,9 +1147,10 @@ company_basic_motors = {
 	}
 	possible_prestige_goods = {
 		prestige_good_schichau_engines
+		prestige_good_ford_automobiles
+		prestige_good_generic_steel
 	}
 	possible_prestige_goods = {
-		prestige_good_generic_steel
 	}
 	extension_building_types = {
 		building_steel_mills
@@ -1301,16 +1310,19 @@ company_basic_weapons = {
 	building_types = {
 		building_arms_industry
 		building_artillery_foundries
+		building_munition_plants
+		building_explosives_factory
+		building_chemical_plants
+		building_synthetics_plants
 	}
 	extension_building_types = {
 		building_automotive_industry
 		building_steel_mills
 	}
 	possible_prestige_goods = {
-		prestige_good_generic_small_arms
-	}
-	possible_prestige_goods = {
-		prestige_good_generic_artillery
+		prestige_good_schneider_guns
+		prestige_good_generic_explosives
+		prestige_good_generic_fertilizer
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {
