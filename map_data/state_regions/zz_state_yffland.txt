@@ -59,14 +59,15 @@ STATE_HAUSALAND = {
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
 		"bg_opium_plantations"
+		"bg_silk_plantations"
 	}
 	capped_resources = {
-		bg_logging = 100
-		bg_iron_mining = 100
-		bg_coal_mining = 100
-		bg_lead_mining = 100
-		bg_sulfur_mining = 100
-		bg_gold_mining = 100
+		bg_logging = 200
+		bg_iron_mining = 200
+		bg_coal_mining = 200
+		bg_lead_mining = 200
+		bg_sulfur_mining = 200
+		bg_gold_mining = 200
 	}
 	resource = {
 		type = "bg_rubber"
@@ -168,6 +169,14 @@ STATE_OUTER_HAUSALAND = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
 		"bg_opium_plantations"
+		"bg_banana_plantations"
+		"bg_coffee_plantations"
+		"bg_cotton_plantations"
+		"bg_dye_plantations"
+		"bg_silk_plantations"
+		"bg_sugar_plantations"
+		"bg_tea_plantations"
+		"bg_tobacco_plantations"
 	}
 	capped_resources = {
 		bg_logging = 100
@@ -175,6 +184,7 @@ STATE_OUTER_HAUSALAND = {
 		bg_coal_mining = 100
 		bg_lead_mining = 100
 		bg_sulfur_mining = 100
+		bg_gold_mining = 200
 	}
 	resource = {
 		type = "bg_oil_extraction"
@@ -245,13 +255,15 @@ STATE_NIGERIA = {
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
 		"bg_opium_plantations"
+		"bg_silk_plantations"
 	}
 	capped_resources = {
-		bg_logging = 100
-		bg_iron_mining = 100
-		bg_coal_mining = 100
-		bg_lead_mining = 100
-		bg_sulfur_mining = 100
+		bg_logging = 200
+		bg_iron_mining = 200
+		bg_coal_mining = 200
+		bg_lead_mining = 200
+		bg_sulfur_mining = 200
+		bg_gold_mining = 200
 	}
 	resource = {
 		type = "bg_oil_extraction"

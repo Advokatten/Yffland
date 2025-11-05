@@ -136,6 +136,7 @@ company_basic_fabrics = {
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_meat
+		prestige_good_sea_island_cotton
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {
@@ -247,6 +248,7 @@ company_basic_colonial_plantations_2 = {
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_coffee
+		prestige_good_china_tea
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {
@@ -299,6 +301,9 @@ company_basic_silk_and_dye = {
 	building_types = {
 		building_silk_plantation
 		building_dye_plantation
+	}
+	possible_prestige_goods = {
+		prestige_good_como_silk
 	}
 	extension_building_types = {
 		building_textile_mills
@@ -395,12 +400,12 @@ company_basic_fishing = {
 	building_types = {
 		building_fishing_wharf
 		building_whaling_station
-	}
-	extension_building_types = {
+		building_port
 		building_shipyards
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_fish
+		prestige_good_generic_merchant_marine
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {
@@ -637,6 +642,9 @@ company_basic_mineral_mining = {
 		building_sulfur_mine
 		building_coal_mine
 	}
+	possible_prestige_goods = {
+		prestige_good_sicilian_sulfur
+	}
 	extension_building_types = {
 		building_iron_mine
 	}
@@ -793,7 +801,8 @@ company_basic_home_goods = {
 		building_lead_mine
 	}
 	possible_prestige_goods = {
-		prestige_good_generic_furniture
+		prestige_good_english_upholstery
+		prestige_good_satsuma_ware
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {

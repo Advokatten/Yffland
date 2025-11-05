@@ -2451,7 +2451,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:YFF"
-						levels = 5
+						levels = 10
 						region = "STATE_HAUSALAND"
 					}
 				}
@@ -2545,12 +2545,11 @@
 				}
 			}
 			create_building = {
-				# Amalgamation of the four Ancient Universities of Scotland
 				building = "building_university"
 				add_ownership = {
 					country = {
 						country = "c:YFF"
-						levels = 10
+						levels = 20
 						region = "STATE_HAUSALAND"
 					}
 				}
@@ -2722,6 +2721,37 @@
 					}
 				}
 				reserves = 1
+			}
+			create_building = {
+				building = "building_paper_mills"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 10
+						region = "STATE_NIGERIA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pulp_pressing"
+					"pm_automation_disabled"
+				}
+			}
+			create_building = {
+				building = "building_university"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 10
+						region = "STATE_NIGERIA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_scholastic_education"
+					"pm_religious_academia"
+				}
 			}
 			create_building = {
 				building = "building_coffee_plantation"
@@ -2987,6 +3017,21 @@
 				activate_production_methods = {
 					"pm_pulp_pressing"
 					"pm_automation_disabled"
+				}
+			}
+			create_building = {
+				building = "building_university"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 10
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_scholastic_education"
+					"pm_religious_academia"
 				}
 			}
 			create_building = {
