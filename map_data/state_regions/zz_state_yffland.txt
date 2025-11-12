@@ -50,16 +50,16 @@ STATE_HAUSALAND = {
 	wood = "x8E8AC1"
 	arable_land = 200
 	arable_resources = {
-		"bg_millet_farms"
-		"bg_livestock_ranches"
-		"bg_coffee_plantations"
-		"bg_cotton_plantations"
-		"bg_dye_plantations"
-		"bg_tobacco_plantations"
-		"bg_sugar_plantations"
-		"bg_banana_plantations"
-		"bg_opium_plantations"
-		"bg_silk_plantations"
+		"building_millet_farm"
+		"building_livestock_ranches"
+		"building_coffee_plantations"
+		"building_cotton_plantations"
+		"building_dye_plantations"
+		"building_tobacco_plantations"
+		"building_sugar_plantations"
+		"building_banana_plantations"
+		"building_opium_plantations"
+		"building_silk_plantations"
 	}
 	capped_resources = {
 		bg_logging = 200
