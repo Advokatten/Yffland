@@ -11,22 +11,17 @@ MILITARY_FORMATIONS = {
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_OUTER_HAUSALAND
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_OUTER_HAUSALAND
-				count = 5
+				count = 30
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_OUTER_HAUSALAND
-				count = 5
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_OUTER_HAUSALAND
-				count = 5
+				count = 10
 			}
 			save_scope_as = yff_army_2
 		}
@@ -38,17 +33,17 @@ MILITARY_FORMATIONS = {
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_NIGERIA
-				count = 10
+				count = 30
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_NIGERIA
-				count = 5
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_NIGERIA
-				count = 5
+				count = 10
 			}
 			save_scope_as = yff_army_3
 		}
@@ -60,17 +55,17 @@ MILITARY_FORMATIONS = {
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_EAST_HAUSALAND
-				count = 10
+				count = 30
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_EAST_HAUSALAND
-				count = 5
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_EAST_HAUSALAND
-				count = 5
+				count = 10
 			}
 			save_scope_as = yff_army_4
 		}
@@ -82,17 +77,17 @@ MILITARY_FORMATIONS = {
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_NORTH_CAMEROON
-				count = 10
+				count = 30
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_NORTH_CAMEROON
-				count = 5
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_NORTH_CAMEROON
-				count = 5
+				count = 10
 			}
 			save_scope_as = yff_army_5
 		}
