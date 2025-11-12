@@ -68,14 +68,8 @@ STATE_HAUSALAND = {
 		bg_lead_mining = 200
 		bg_sulfur_mining = 200
 		bg_gold_mining = 200
-	}
-	resource = {
-		type = "bg_rubber"
-		undiscovered_amount = 500
-	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 500
+		bg_rubber = 500
+		bg_oil_extraction = 500
 	}
 }
 
@@ -185,14 +179,8 @@ STATE_OUTER_HAUSALAND = {
 		bg_lead_mining = 100
 		bg_sulfur_mining = 100
 		bg_gold_mining = 200
-	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 500
-	}
-	resource = {
-		type = "bg_rubber"
-		undiscovered_amount = 500
+		bg_oil_extraction = 500
+		bg_rubber = 500
 	}
 }
 
@@ -264,14 +252,8 @@ STATE_NIGERIA = {
 		bg_lead_mining = 200
 		bg_sulfur_mining = 200
 		bg_gold_mining = 200
-	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 500
-	}
-	resource = {
-		type = "bg_rubber"
-		undiscovered_amount = 500
+		bg_oil_extraction = 500
+		bg_rubber = 500
 	}
 }
 
@@ -333,14 +315,8 @@ STATE_EAST_HAUSALAND = {
 		bg_coal_mining = 100
 		bg_lead_mining = 100
 		bg_sulfur_mining = 100
-	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 500
-	}
-	resource = {
-		type = "bg_rubber"
-		undiscovered_amount = 500
+		bg_oil_extraction = 500
+		bg_rubber = 500
 	}
 }
 
@@ -414,14 +390,8 @@ STATE_NORTH_CAMEROON = {
 		bg_coal_mining = 100
 		bg_lead_mining = 100
 		bg_sulfur_mining = 100
-	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 500
-	}
-	resource = {
-		type = "bg_rubber"
-		undiscovered_amount = 500
+		bg_oil_extraction = 500
+		bg_rubber = 500
 	}
 }
 
@@ -476,14 +446,60 @@ STATE_NIGER_DELTA = {
 		bg_lead_mining = 200
 		bg_sulfur_mining = 200
 		bg_whaling = 200
+		bg_rubber = 500
+		bg_oil_extraction = 500
 	}
-	resource = {
-		type = "bg_rubber"
-		undiscovered_amount = 200
+	naval_exit_id = 3091
+}
+
+STATE_BENIN = {
+	id = 212
+	subsistence_building = "building_subsistence_farms"
+	provinces = {
+		"x691E00"
+		"x6F99BE"
+		"x7B4B80"
+		"x8A898E"
+		"xB3DBE6"
+		"xB8FA68"
+		"xBEF3BD"
+		"xC0E090"
+		"xCF11A0"
+		"xD42491"
+		"xE11C43"
+		"xEBFCB5"
+		"xEC13AB"
+		"xF1E4DA"
+		"xFF1D7C"
 	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 200
+	traits = {
+		"state_trait_niger_river"
+	}
+	city = "xF1E4DA"
+	port = "xF1E4DA"
+	farm = "xE11C43"
+	mine = "xBEF3BD"
+	wood = "xB8FA68"
+	arable_land = 500
+	arable_resources = {
+		"bg_millet_farms"
+		"bg_livestock_ranches"
+		"bg_coffee_plantations"
+		"bg_cotton_plantations"
+		"bg_dye_plantations"
+		"bg_tobacco_plantations"
+		"bg_sugar_plantations"
+		"bg_banana_plantations"
+	}
+	capped_resources = {
+		bg_coal_mining = 200
+		bg_iron_mining = 200
+		bg_logging = 200
+		bg_fishing = 200
+		bg_sulfur_mining = 200
+		bg_lead_mining = 200
+		bg_oil_extraction = 500
+		bg_rubber = 500
 	}
 	naval_exit_id = 3091
 }
