@@ -19,6 +19,8 @@ Todo list:
 * Add more to a Naval company
 * Add more to a Farm company - add silk to company
 * Combine Tool company with Metal company and then combine them into Steel/motor company
+* Combine home goods and armament company
+* Combine Naval company and farm company
 * Add Ideology to ruler & IG leader that supports Technocracy 
 * Add Colonial law
 * Add some government building so colonial law is not in deficit 
