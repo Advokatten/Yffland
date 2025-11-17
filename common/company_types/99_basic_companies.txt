@@ -983,12 +983,6 @@ company_basic_metalworks = {
 		prestige_good_generic_tools
 		prestige_good_burmese_teak
 	}
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_tools_complete_tt
-			has_variable = prestige_good_generic_tools_var
-		}
-	}
 	possible = {
 		any_scope_state = {
 			is_incorporated = yes

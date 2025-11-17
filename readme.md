@@ -17,10 +17,14 @@ Todo list:
 * Add companies to the start of the game
 * Add so you can have 4 companies at the start of the game
 * Add more to a Naval company
-* Add more to a Farm company - done
+* Add more to a Farm company - add silk to company
 * Combine Tool company with Metal company and then combine them into Steel/motor company
 * Add Ideology to ruler & IG leader that supports Technocracy 
 * Add Colonial law
 * Add some government building so colonial law is not in deficit 
+* Add Power block
+* Make some puppets for this country
+* Change some city names for meme value
+
 
 
