@@ -2680,6 +2680,21 @@
 					"pm_wooden_passenger_carriages"
 				}
 			}
+			create_building = {
+				building = "building_trade_center"
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 1
+						region = "STATE_OUTER_HAUSALAND"
+					}
+				}
+				reserves = 1
+			}
 		}
 	}
 	s:STATE_NIGERIA = {
@@ -3638,7 +3653,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_sugar_plantation"
-					"pm_road_carts"
+					"pm_rail_transportation"
 				}
 			}
 			create_building = {
@@ -3656,6 +3671,21 @@
 					"default_building_banana_plantation"
 					"pm_road_carts"
 				}
+			}
+			create_building = {
+				building = "building_trade_center"
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 3
+						region = "STATE_BENIN"
+					}
+				}
+				reserves = 1
 			}
 			create_building = {
 				building = "building_railway"
@@ -3774,6 +3804,37 @@
 					"pm_early_trains"
 					"pm_wooden_passenger_carriages"
 				}
+			}
+			create_building = {
+				building = "building_banana_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_NIGER_DELTA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_banana_plantation"
+					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_trade_center"
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 3
+						region = "STATE_NIGER_DELTA"
+					}
+				}
+				reserves = 1
 			}
 		}
 	}
