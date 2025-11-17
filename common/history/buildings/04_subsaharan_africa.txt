@@ -3160,6 +3160,22 @@
 					"pm_unrefrigerated"
 				}
 			}
+			create_building = {
+				building = "building_dye_plantation"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 3
+						region = "STATE_EAST_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_dye_plantation"
+					"pm_road_carts"
+				}
+			}
 		}
 	}
 	s:STATE_NORTH_CAMEROON = {
@@ -3179,6 +3195,22 @@
 					"pm_soil_enriching_farming"
 					"pm_no_secondary"
 					"pm_tools_disabled"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 1
+						region = "STATE_NORTH_CAMEROON"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_early_trains"
+					"pm_wooden_passenger_carriages"
 				}
 			}
 			create_building = {
@@ -3513,7 +3545,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:YFF"
-						levels = 2
+						levels = 10
 						region = "STATE_BENIN"
 					}
 				}
@@ -3530,7 +3562,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:YFF"
-						levels = 1
+						levels = 10
 						region = "STATE_BENIN"
 					}
 				}
@@ -3540,19 +3572,6 @@
 					"pm_simple_ranch"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
-				}
-			}
-			create_building = {
-				building = "building_barracks"
-				add_ownership = {
-					country = {
-						country = "c:YFF"
-						levels = 20
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_no_organization"
 				}
 			}
 			create_building = {
@@ -3604,6 +3623,54 @@
 					"pm_vertical_filing_cabinets"
 					"pm_professional_bureaucrats"
 					"pm_religious_bureaucrats"
+				}
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_BENIN"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_sugar_plantation"
+					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_banana_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_BENIN"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_banana_plantation"
+					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 3
+						region = "STATE_BENIN"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_early_trains"
+					"pm_wooden_passenger_carriages"
 				}
 			}
 		}
@@ -3692,25 +3759,21 @@
 					"pm_basic_shipbuilding"
 				}
 			}
-		}
-	}
-	region_state:YFF = {
-		create_building = {
-			building = "building_livestock_ranch"
-			add_ownership = {
-				building = {
-					type = "building_manor_house"
-					country = "c:YFF"
-					levels = 1
-					region = "STATE_OUTER_HAUSALAND"
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 7
+						region = "STATE_NIGER_DELTA"
+					}
 				}
-			}
-			reserves = 1
-			activate_production_methods = {
-				"pm_open_air_stockyards"
-				"pm_simple_ranch"
-				"pm_standard_fences"
-				"pm_unrefrigerated"
+				reserves = 1
+				activate_production_methods = {
+					"pm_early_trains"
+					"pm_wooden_passenger_carriages"
+				}
 			}
 		}
 	}

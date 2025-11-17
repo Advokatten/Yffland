@@ -467,7 +467,7 @@
 		region_state:HAU = {
 			create_pop = {
 				culture = hausa
-				size = 168948
+				size = 968948
 			}
 			create_pop = {
 				culture = dyula
