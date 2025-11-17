@@ -1,6 +1,7 @@
 Todo list:
 
 * Add Construction centers
+* Add Gold Mines
 * Add glassmaker buildings
 * Change pm's in university, Gov building, paper mill, tooling workshop, textile mill, urban center, mining pms, livestock and farms
 * Set buildings to privatized
