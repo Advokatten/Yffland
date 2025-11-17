@@ -2435,7 +2435,7 @@
 				add_ownership = {
 					country = {
 						country = "c:YFF"
-						levels = 20
+						levels = 7
 					}
 				}
 				reserves = 1
@@ -2549,7 +2549,7 @@
 				add_ownership = {
 					country = {
 						country = "c:YFF"
-						levels = 20
+						levels = 5
 						region = "STATE_HAUSALAND"
 					}
 				}
@@ -2737,7 +2737,7 @@
 				add_ownership = {
 					country = {
 						country = "c:YFF"
-						levels = 10
+						levels = 5
 						region = "STATE_NIGERIA"
 					}
 				}
@@ -2769,7 +2769,7 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:YFF"
-						levels = 5
+						levels = 7
 						region = "STATE_NIGERIA"
 					}
 				}
@@ -2916,7 +2916,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:YFF"
-						levels = 3
+						levels = 10
 						region = "STATE_NIGERIA"
 					}
 				}
@@ -3051,7 +3051,7 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:YFF"
-						levels = 5
+						levels = 7
 						region = "STATE_EAST_HAUSALAND"
 					}
 				}
@@ -3099,7 +3099,7 @@
 				add_ownership = {
 					country = {
 						country = "c:YFF"
-						levels = 20
+						levels = 10
 					}
 				}
 				reserves = 1
@@ -3506,7 +3506,7 @@
 		}
 	}
 	s:STATE_BENIN = {
-		region_state:BEN = {
+		region_state:YFF = {
 			create_building = {
 				building = "building_millet_farm"
 				add_ownership = {
@@ -3589,6 +3589,21 @@
 					"pm_saw_mills"
 					"pm_no_equipment"
 					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_vertical_filing_cabinets"
+					"pm_professional_bureaucrats"
+					"pm_religious_bureaucrats"
 				}
 			}
 		}

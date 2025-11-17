@@ -48,7 +48,7 @@ STATE_HAUSALAND = {
 	farm = "x6F05D2"
 	mine = "x96C7B6"
 	wood = "x8E8AC1"
-	arable_land = 200
+	arable_land = 1000
 	arable_resources = {
 		"building_millet_farm"
 		"building_livestock_ranches"
@@ -158,7 +158,7 @@ STATE_OUTER_HAUSALAND = {
 	farm = "x50D09F"
 	mine = "xB4574B"
 	wood = "xC438ED"
-	arable_land = 200
+	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
@@ -232,7 +232,7 @@ STATE_NIGERIA = {
 	farm = "xB99D24"
 	mine = "x0031D6"
 	wood = "xA591CC"
-	arable_land = 200
+	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
@@ -296,7 +296,7 @@ STATE_EAST_HAUSALAND = {
 	farm = "x52057E"
 	mine = "xECD153"
 	wood = "x933DAA"
-	arable_land = 200
+	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
@@ -371,7 +371,7 @@ STATE_NORTH_CAMEROON = {
 	farm = "x2DF456"
 	mine = "x459F5A"
 	wood = "xE0307A"
-	arable_land = 200
+	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
@@ -424,7 +424,7 @@ STATE_NIGER_DELTA = {
 	farm = "xA8A592"
 	mine = "xD8056B"
 	wood = "x4D3C3A"
-	arable_land = 200
+	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"
@@ -480,7 +480,7 @@ STATE_BENIN = {
 	farm = "xE11C43"
 	mine = "xBEF3BD"
 	wood = "xB8FA68"
-	arable_land = 500
+	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
 		"bg_livestock_ranches"

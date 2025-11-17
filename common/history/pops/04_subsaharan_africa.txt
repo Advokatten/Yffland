@@ -356,7 +356,7 @@
 			create_pop = {
 				culture = hausa
 				religion = animist
-				size = 144400
+				size = 944400
 			}
 			create_pop = {
 				culture = equatorial_bantu
@@ -384,18 +384,16 @@
 				size = 20000
 			}
 		}
-		region_state:BRG = {
-			create_pop = {
-				culture = mande
-				size = 40000
-			}
-		}
 	}
 	s:STATE_BENIN = {
 		region_state:YFF = {
 			create_pop = {
 				culture = edo
 				size = 493792
+			}
+			create_pop = {
+				culture = hausa
+				size = 968948
 			}
 			create_pop = {
 				culture = ibo
@@ -436,12 +434,12 @@
 	s:STATE_NIGER_DELTA = {
 		region_state:YFF = {
 			create_pop = {
-				culture = yiffian
-				size = 1048000
-			}
-			create_pop = {
 				culture = equatorial_bantu
 				size = 728000
+			}
+			create_pop = {
+				culture = hausa
+				size = 168948
 			}
 			create_pop = {
 				culture = ibibio
@@ -593,7 +591,7 @@
 			}
 			create_pop = {
 				culture = fulbe
-				size = 98600
+				size = 986000
 			}
 			create_pop = {
 				culture = equatorial_bantu
@@ -641,11 +639,11 @@
 			create_pop = {
 				culture = hausa
 				religion = animist
-				size = 347950
+				size = 947950
 			}
 			create_pop = {
 				culture = fulbe
-				size = 376796
+				size = 976796
 			}
 			create_pop = {
 				pop_type = slaves
