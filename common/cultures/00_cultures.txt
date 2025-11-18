@@ -20205,7 +20205,8 @@ yankee = {
 		135
 		206
 		235
-	}	# Sky Blue
+	}
+	# Sky Blue
 	religion = protestant
 	heritage = heritage_north_american_settler
 	language = language_anglophone
@@ -20966,7 +20967,8 @@ dixie = {
 		204
 		154
 		91
-	}	# Butternut
+	}
+	# Butternut
 	religion = protestant
 	heritage = heritage_north_american_settler
 	language = language_anglophone
@@ -26455,7 +26457,7 @@ hausa = {
 		0.4
 		0.5
 	}
-	religion = sunni
+	religion = protestant
 	heritage = heritage_sahelian
 	language = language_hausa
 	traditions = {
