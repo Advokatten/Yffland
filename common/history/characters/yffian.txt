@@ -9,7 +9,7 @@ CHARACTERS = {
 			ig_leader = yes
 			birth_date = 1815.12.23
 			interest_group = ig_intelligentsia
-			ideology = ideology_positivist
+			ideology = ideology_Technocratic
 			traits = {
 				expert_political_operator
 				firebrand
