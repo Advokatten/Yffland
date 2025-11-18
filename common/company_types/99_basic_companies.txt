@@ -750,7 +750,7 @@ company_basic_food = {
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_food_industry
-				level >= 3
+				level >= 1
 			}
 		}
 	}
@@ -809,7 +809,7 @@ company_basic_paper = {
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_paper_mills
-				level >= 3
+				level >= 1
 			}
 		}
 	}
@@ -1385,7 +1385,7 @@ company_basic_weapons = {
 					is_building_type = building_arms_industry
 					is_building_type = building_artillery_foundries
 				}
-				level >= 5
+				level >= 1
 			}
 		}
 	}
