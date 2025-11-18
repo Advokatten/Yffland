@@ -780,11 +780,12 @@ company_basic_paper = {
 		building_logging_camp
 	}
 	possible_prestige_goods = {
-		prestige_good_generic_paper
 		prestige_good_bohemian_crystal
 		prestige_good_english_upholstery
 		prestige_good_satsuma_ware
 		prestige_good_washi_paper
+		prestige_good_haute_courte
+		prestige_good_generic_clothes
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {
@@ -1347,7 +1348,7 @@ company_basic_weapons = {
 		prestige_good_generic_fertilizer
 		prestige_good_schichau_engines
 		prestige_good_ford_automobiles
-		prestige_good_generic_steel
+		prestige_good_sheffield_steel
 		prestige_good_generic_tools
 		prestige_good_burmese_teak
 		prestige_good_baku_oil
@@ -1357,6 +1358,7 @@ company_basic_weapons = {
 		prestige_good_swedish_bar_iron
 		prestige_good_colt_revolvers
 		prestige_good_generic_merchant_marine
+		prestige_good_armstrong_ships
 	}
 	possible = {
 		any_scope_state = {

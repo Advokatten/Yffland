@@ -2442,7 +2442,7 @@
 				activate_production_methods = {
 					"pm_vertical_filing_cabinets"
 					"pm_professional_bureaucrats"
-					"pm_religious_bureaucrats"
+					"pm_secular_bureaucrats"
 				}
 			}
 			create_building = {
@@ -2457,7 +2457,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_pulp_pressing"
+					"pm_sulfite_pulping"
 					"pm_automation_disabled"
 				}
 			}
@@ -2474,7 +2474,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_banana_plantation"
-					"pm_road_carts"
+					"pm_steam_rail_transport"
 				}
 			}
 			create_building = {
@@ -2536,8 +2536,8 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
-					"pm_no_luxury_clothes"
+					"pm_dye_workshops"
+					"pm_craftsman_sewing"
 					"pm_traditional_looms"
 				}
 			}
@@ -2554,7 +2554,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_tobacco_plantation"
-					"pm_road_carts"
+					"pm_steam_rail_transport"
 				}
 			}
 			create_building = {
@@ -2569,7 +2569,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_scholastic_education"
-					"pm_religious_academia"
+					"pm_secular_academia"
 				}
 			}
 			create_building = {
@@ -2591,7 +2591,7 @@
 				building = "building_millet_farm"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_financial_district"
 						country = "c:YFF"
 						levels = 20
 						region = "STATE_HAUSALAND"
@@ -2601,14 +2601,14 @@
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
 					"pm_no_secondary"
-					"pm_tools_disabled"
+					"pm_tools_enabled"
 				}
 			}
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_financial_district"
 						country = "c:YFF"
 						levels = 2
 						region = "STATE_HAUSALAND"
@@ -2616,8 +2616,8 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_open_air_stockyards"
-					"pm_simple_ranch"
+					"pm_slaughterhouses"
+					"pm_sheep_farms"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 				}
@@ -2630,7 +2630,7 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_financial_district"
 						country = "c:YFF"
 						levels = 3
 						region = "STATE_OUTER_HAUSALAND"
@@ -2638,8 +2638,8 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_open_air_stockyards"
-					"pm_simple_ranch"
+					"pm_slaughterhouses"
+					"pm_sheep_farms"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 				}
@@ -2656,7 +2656,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_pulp_pressing"
+					"pm_sulfite_pulping"
 					"pm_automation_disabled"
 				}
 			}
@@ -2769,7 +2769,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_pulp_pressing"
+					"pm_sulfite_pulping"
 					"pm_automation_disabled"
 				}
 			}
@@ -2785,7 +2785,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_scholastic_education"
-					"pm_religious_academia"
+					"pm_secular_academia"
 				}
 			}
 			create_building = {
@@ -2801,7 +2801,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_coffee_plantation"
-					"pm_road_carts"
+					"pm_steam_rail_transport"
 				}
 			}
 			create_building = {
@@ -2864,10 +2864,10 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_picks_and_shovels_building_iron_mine"
+					"pm_atmospheric_engine_pump_building_iron_mine"
 					"pm_no_explosives"
 					"pm_no_steam_automation"
-					"pm_road_carts"
+					"pm_rail_transport_mine"
 				}
 			}
 			create_building = {
@@ -2903,7 +2903,7 @@
 					"pm_atmospheric_engine_pump_building_sulfur_mine"
 					"pm_no_explosives"
 					"pm_no_steam_automation"
-					"pm_road_carts"
+					"pm_rail_transport_mine"
 				}
 			}
 			create_building = {
@@ -2963,10 +2963,10 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_picks_and_shovels_building_coal_mine"
+					"pm_atmospheric_engine_pump_building_coal_mine"
 					"pm_no_explosives"
 					"pm_no_steam_automation"
-					"pm_road_carts"
+					"pm_rail_transport_mine"
 				}
 			}
 			create_building = {
@@ -2981,7 +2981,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_pig_iron"
+					"pm_steel"
 					"pm_automation_disabled"
 				}
 			}
@@ -3000,7 +3000,7 @@
 					"pm_atmospheric_engine_pump_building_lead_mine"
 					"pm_no_explosives"
 					"pm_no_steam_automation"
-					"pm_road_carts"
+					"pm_rail_transport_mine"
 				}
 			}
 			create_building = {
@@ -3035,7 +3035,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_tobacco_plantation"
-					"pm_road_carts"
+					"pm_steam_rail_transport"
 				}
 			}
 			create_building = {
@@ -3063,7 +3063,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_pulp_pressing"
+					"pm_sulfite_pulping"
 					"pm_automation_disabled"
 				}
 			}
@@ -3079,7 +3079,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_scholastic_education"
-					"pm_religious_academia"
+					"pm_secular_academia"
 				}
 			}
 			create_building = {
@@ -3094,7 +3094,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_handsewn_clothes"
+					"pm_dye_workshops"
 					"pm_no_luxury_clothes"
 					"pm_traditional_looms"
 				}
@@ -3160,7 +3160,7 @@
 				activate_production_methods = {
 					"pm_vertical_filing_cabinets"
 					"pm_professional_bureaucrats"
-					"pm_religious_bureaucrats"
+					"pm_secular_bureaucrats"
 				}
 			}
 			create_building = {
@@ -3176,14 +3176,14 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_cotton_plantation"
-					"pm_road_carts"
+					"pm_steam_rail_transport"
 				}
 			}
 			create_building = {
 				building = "building_millet_farm"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_financial_district"
 						country = "c:YFF"
 						levels = 10
 						region = "STATE_EAST_HAUSALAND"
@@ -3193,14 +3193,14 @@
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
 					"pm_no_secondary"
-					"pm_tools_disabled"
+					"pm_tools_enabled"
 				}
 			}
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_financial_district"
 						country = "c:YFF"
 						levels = 3
 						region = "STATE_EAST_HAUSALAND"
@@ -3208,8 +3208,8 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_open_air_stockyards"
-					"pm_simple_ranch"
+					"pm_slaughterhouses"
+					"pm_sheep_farms"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 				}
@@ -3227,7 +3227,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_dye_plantation"
-					"pm_road_carts"
+					"pm_steam_rail_transport"
 				}
 			}
 		}
@@ -3631,7 +3631,7 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_financial_district"
 						country = "c:YFF"
 						levels = 10
 						region = "STATE_BENIN"
@@ -3639,8 +3639,8 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_open_air_stockyards"
-					"pm_simple_ranch"
+					"pm_slaughterhouses"
+					"pm_sheep_farms"
 					"pm_standard_fences"
 					"pm_unrefrigerated"
 				}
@@ -3657,10 +3657,10 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_picks_and_shovels_building_iron_mine"
+					"pm_atmospheric_engine_pump_building_iron_mine"
 					"pm_no_explosives"
 					"pm_no_steam_automation"
-					"pm_road_carts"
+					"pm_rail_transport_mine"
 				}
 			}
 			create_building = {
@@ -3678,7 +3678,7 @@
 					"pm_no_hardwood"
 					"pm_saw_mills"
 					"pm_no_equipment"
-					"pm_road_carts"
+					"pm_rail_transport"
 				}
 			}
 			create_building = {
@@ -3693,7 +3693,7 @@
 				activate_production_methods = {
 					"pm_vertical_filing_cabinets"
 					"pm_professional_bureaucrats"
-					"pm_religious_bureaucrats"
+					"pm_secular_bureaucrats"
 				}
 			}
 			create_building = {
@@ -3725,7 +3725,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_banana_plantation"
-					"pm_road_carts"
+					"pm_steam_rail_transport"
 				}
 			}
 			create_building = {
@@ -3749,7 +3749,7 @@
 					building = {
 						type = "building_financial_district"
 						country = "c:YFF"
-						levels = 3
+						levels = 5
 						region = "STATE_BENIN"
 					}
 				}
@@ -3813,7 +3813,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_coffee_plantation"
-					"pm_road_carts"
+					"pm_steam_rail_transport"
 				}
 			}
 			create_building = {
@@ -3891,7 +3891,7 @@
 				reserves = 1
 				activate_production_methods = {
 					"default_building_banana_plantation"
-					"pm_road_carts"
+					"pm_steam_rail_transport"
 				}
 			}
 			create_building = {
