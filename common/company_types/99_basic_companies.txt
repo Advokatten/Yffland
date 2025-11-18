@@ -1335,7 +1335,7 @@ company_basic_weapons = {
 		building_shipyards
 		building_military_shipyards
 		building_power_plant
-		building_
+		building_port
 	}
 	extension_building_types = {
 		building_automotive_industry
@@ -1356,6 +1356,7 @@ company_basic_weapons = {
 		prestige_good_sicilian_sulfur
 		prestige_good_swedish_bar_iron
 		prestige_good_colt_revolvers
+		prestige_good_generic_merchant_marine
 	}
 	possible = {
 		any_scope_state = {
