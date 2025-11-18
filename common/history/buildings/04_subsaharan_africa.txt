@@ -2478,6 +2478,19 @@
 				}
 			}
 			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_iron_frame_buildings"
+				}
+			}
+			create_building = {
 				building = "building_railway"
 				add_ownership = {
 					building = {
@@ -2714,6 +2727,19 @@
 					"pm_soil_enriching_farming"
 					"pm_no_secondary"
 					"pm_tools_disabled"
+				}
+			}
+			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_iron_frame_buildings"
 				}
 			}
 			create_building = {
@@ -3010,6 +3036,19 @@
 				activate_production_methods = {
 					"default_building_tobacco_plantation"
 					"pm_road_carts"
+				}
+			}
+			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_iron_frame_buildings"
 				}
 			}
 			create_building = {
