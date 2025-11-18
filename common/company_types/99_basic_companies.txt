@@ -704,6 +704,18 @@ company_basic_food = {
 		building_cotton_plantation
 		building_vineyard_plantation
 		building_banana_plantation
+		building_silk_plantation
+		building_tea_plantation
+		building_coffee_plantation
+		building_dye_plantation
+		building_fishing_wharf
+		building_maize_farm
+		building_rye_farm
+		building_wheat_farm
+		building_whaling_station
+		building_sugar_plantation
+		building_rice_farm
+		building_tobacco_plantation
 	}
 	extension_building_types = {
 		building_livestock_ranch
@@ -717,6 +729,9 @@ company_basic_food = {
 		prestige_good_pannonian_patent_flour
 		prestige_good_champagne
 		prestige_good_gros_michel_banana
+		prestige_good_tomioka_silk
+		prestige_good_bengal_opium
+		prestige_good_china_tea
 	}
 	possible = {
 		any_scope_state = {
@@ -728,7 +743,7 @@ company_basic_food = {
 		}
 	}
 	prosperity_modifier = {
-		state_birth_rate_mult = 0.05
+		state_birth_rate_mult = 1
 	}
 	ai_will_do = {
 		any_scope_state = {
@@ -756,12 +771,20 @@ company_basic_paper = {
 	}
 	building_types = {
 		building_paper_mills
+		building_textile_mills
+		building_glassworks
+		building_arts_academy
+		building_furniture_manufacturies
 	}
 	extension_building_types = {
 		building_logging_camp
 	}
 	possible_prestige_goods = {
 		prestige_good_generic_paper
+		prestige_good_bohemian_crystal
+		prestige_good_english_upholstery
+		prestige_good_satsuma_ware
+		prestige_good_washi_paper
 	}
 	prestige_goods_trigger = {
 		custom_tooltip = {
@@ -1133,13 +1156,6 @@ company_basic_motors = {
 		building_railway
 		building_steel_mills
 	}
-	possible_prestige_goods = {
-		prestige_good_schichau_engines
-		prestige_good_ford_automobiles
-		prestige_good_generic_steel
-	}
-	possible_prestige_goods = {
-	}
 	extension_building_types = {
 		building_steel_mills
 	}
@@ -1294,6 +1310,7 @@ company_basic_weapons = {
 		"dynamic_company_type_conglomerate"
 		"dynamic_company_type_syndicate"
 		"dynamic_company_type_combine"
+		"dynamic_company_type_megacorporation"
 	}
 	building_types = {
 		building_arms_industry
@@ -1302,6 +1319,23 @@ company_basic_weapons = {
 		building_explosives_factory
 		building_chemical_plants
 		building_synthetics_plants
+		building_motor_industry
+		building_automotive_industry
+		building_railway
+		building_steel_mills
+		building_coal_mine
+		building_iron_mine
+		building_sulfur_mine
+		building_lead_mine
+		building_tooling_workshops
+		building_rubber_plantation
+		building_gold_mine
+		building_oil_rig
+		building_logging_camp
+		building_shipyards
+		building_military_shipyards
+		building_power_plant
+		building_
 	}
 	extension_building_types = {
 		building_automotive_industry
@@ -1311,18 +1345,17 @@ company_basic_weapons = {
 		prestige_good_schneider_guns
 		prestige_good_generic_explosives
 		prestige_good_generic_fertilizer
-	}
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_small_arms_complete_tt
-			has_variable = prestige_good_generic_small_arms_var
-		}
-	}
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_artillery_complete_tt
-			has_variable = prestige_good_generic_artillery_var
-		}
+		prestige_good_schichau_engines
+		prestige_good_ford_automobiles
+		prestige_good_generic_steel
+		prestige_good_generic_tools
+		prestige_good_burmese_teak
+		prestige_good_baku_oil
+		prestige_good_generic_merchant_marine
+		prestige_good_philips_chapel_radio
+		prestige_good_sicilian_sulfur
+		prestige_good_swedish_bar_iron
+		prestige_good_colt_revolvers
 	}
 	possible = {
 		any_scope_state = {
@@ -1339,6 +1372,10 @@ company_basic_weapons = {
 	prosperity_modifier = {
 		unit_army_offense_mult = 0.05
 		unit_army_defense_mult = 0.05
+		military_formation_movement_speed_mult = 0.1
+		state_construction_mult = 1
+		building_construction_sector_throughput_add = 0.05
+		country_max_weekly_construction_progress_add = 10
 	}
 	ai_will_do = {
 		any_scope_state = {

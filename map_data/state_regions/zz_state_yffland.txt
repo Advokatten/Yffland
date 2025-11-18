@@ -50,16 +50,22 @@ STATE_HAUSALAND = {
 	wood = "x8E8AC1"
 	arable_land = 1000
 	arable_resources = {
-		"bg_millet_farm"
+		"bg_millet_farms"
+		"bg_wheat_farms"
+		"bg_rice_farm"
+		"bg_rye_farms"
+		"bg_maze_farm"
+		"bg_silk_plantations"
 		"bg_livestock_ranches"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
+		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_vineyard_plantations"
 		"bg_opium_plantations"
-		"bg_silk_plantations"
 	}
 	capped_resources = {
 		bg_logging = 200
@@ -161,16 +167,21 @@ STATE_OUTER_HAUSALAND = {
 	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
+		"bg_wheat_farms"
+		"bg_rice_farm"
+		"bg_rye_farms"
+		"bg_maze_farm"
+		"bg_silk_plantations"
 		"bg_livestock_ranches"
-		"bg_opium_plantations"
-		"bg_banana_plantations"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
-		"bg_silk_plantations"
-		"bg_sugar_plantations"
 		"bg_tea_plantations"
 		"bg_tobacco_plantations"
+		"bg_sugar_plantations"
+		"bg_banana_plantations"
+		"bg_vineyard_plantations"
+		"bg_opium_plantations"
 	}
 	capped_resources = {
 		bg_logging = 100
@@ -299,16 +310,21 @@ STATE_EAST_HAUSALAND = {
 	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
+		"bg_wheat_farms"
+		"bg_rice_farm"
+		"bg_rye_farms"
+		"bg_maze_farm"
+		"bg_silk_plantations"
 		"bg_livestock_ranches"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
+		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_vineyard_plantations"
 		"bg_opium_plantations"
-		"bg_wheat_farms"
-		"bg_silk_plantations"
 	}
 	capped_resources = {
 		bg_logging = 100
@@ -318,6 +334,7 @@ STATE_EAST_HAUSALAND = {
 		bg_sulfur_mining = 100
 		bg_oil_extraction = 500
 		bg_rubber = 500
+		bg_gold_mining = 200
 	}
 }
 
@@ -375,15 +392,21 @@ STATE_NORTH_CAMEROON = {
 	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
+		"bg_wheat_farms"
+		"bg_rice_farm"
+		"bg_rye_farms"
+		"bg_maze_farm"
+		"bg_silk_plantations"
 		"bg_livestock_ranches"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
 		"bg_tea_plantations"
+		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_vineyard_plantations"
 		"bg_opium_plantations"
-		"bg_silk_plantations"
 	}
 	capped_resources = {
 		bg_logging = 100
@@ -393,6 +416,7 @@ STATE_NORTH_CAMEROON = {
 		bg_sulfur_mining = 100
 		bg_oil_extraction = 500
 		bg_rubber = 500
+		bg_gold_mining = 200
 	}
 }
 
@@ -428,16 +452,21 @@ STATE_NIGER_DELTA = {
 	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
+		"bg_wheat_farms"
+		"bg_rice_farm"
+		"bg_rye_farms"
+		"bg_maze_farm"
+		"bg_silk_plantations"
 		"bg_livestock_ranches"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
+		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
-		"bg_silk_plantations"
+		"bg_vineyard_plantations"
 		"bg_opium_plantations"
-		"bg_tea_plantations"
 	}
 	capped_resources = {
 		bg_logging = 200
@@ -449,6 +478,7 @@ STATE_NIGER_DELTA = {
 		bg_whaling = 200
 		bg_rubber = 500
 		bg_oil_extraction = 500
+		bg_gold_mining = 200
 	}
 	naval_exit_id = 3091
 }
@@ -484,13 +514,21 @@ STATE_BENIN = {
 	arable_land = 1000
 	arable_resources = {
 		"bg_millet_farms"
+		"bg_wheat_farms"
+		"bg_rice_farm"
+		"bg_rye_farms"
+		"bg_maze_farm"
+		"bg_silk_plantations"
 		"bg_livestock_ranches"
 		"bg_coffee_plantations"
 		"bg_cotton_plantations"
 		"bg_dye_plantations"
+		"bg_tea_plantations"
 		"bg_tobacco_plantations"
 		"bg_sugar_plantations"
 		"bg_banana_plantations"
+		"bg_vineyard_plantations"
+		"bg_opium_plantations"
 	}
 	capped_resources = {
 		bg_coal_mining = 200
@@ -501,6 +539,7 @@ STATE_BENIN = {
 		bg_lead_mining = 200
 		bg_oil_extraction = 500
 		bg_rubber = 500
+		bg_gold_mining = 200
 	}
 	naval_exit_id = 3091
 }

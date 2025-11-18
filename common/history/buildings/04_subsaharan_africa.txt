@@ -3572,6 +3572,23 @@
 				}
 			}
 			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_BENIN"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_ceramics"
+					"pm_leaded_glass"
+					"pm_manual_glassblowing"
+				}
+			}
+			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
@@ -3803,6 +3820,23 @@
 				activate_production_methods = {
 					"pm_early_trains"
 					"pm_wooden_passenger_carriages"
+				}
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_NIGER_DELTA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pot_stills"
+					"pm_disabled_canning"
+					"pm_sweeteners"
+					"pm_manual_dough_processing"
 				}
 			}
 			create_building = {
