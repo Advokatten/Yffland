@@ -1,10 +1,10 @@
 Todo list:
 
 * Add Construction centers
-* Add Gold Mines
+* Add Gold Mines - done
 * Add Fisheries - done
 * Add Whaling -done
-* Add glassmaker buildings
+* Add glassmaker buildings - done
 * Change pm's in university, Gov building, paper mill, tooling workshop, textile mill, urban center, mining pms, livestock and farms
 * Set buildings to privatized
 * Add consumption taxes
@@ -12,9 +12,7 @@ Todo list:
 * Add buildings to port states - done?
 * Add banana farms - done
 * Add More railways to Nigeria - done
-* Add Food industries
-* Add more Arms Industries
-* Add more Munition plants
+* Add Food industries - done
 * Add todo list - done
 * Reduce gov buildings - done
 * Add companies to the start of the game
