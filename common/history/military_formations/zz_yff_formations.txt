@@ -25,5 +25,58 @@ MILITARY_FORMATIONS = {
 			}
 			save_scope_as = yff_army_2
 		}
+		create_character = {
+			is_general = yes
+			first_name = culture
+			last_name = culture
+			historical = no
+			hq = region_niger
+			culture = ig_before_primary_culture
+			female = no
+			dna = random
+			commander_rank = commander_rank_3
+			age = 20
+			interest_group = random
+			traits = {
+				expert_artillery_commander
+				resupply_commander
+				plains_commander
+				mountain_commander
+				expert_offensive_planner
+			}
+			save_scope_as = yiffgen1
+		}
+		scope:yffgen1_gen = {
+			transfer_to_formation = scope:
+			yff_army_2
+		}
+		create_character = {
+			is_general = yes
+			first_name = culture
+			last_name = culture
+			historical = no
+			hq = region_niger
+			culture = ig_before_primary_culture
+			female = no
+			dna = random
+			commander_rank = commander_rank_3
+			age = 20
+			interest_group = random
+			traits = {
+				resupply_commander
+				plains_commander
+				mountain_commander
+				surveyor
+				stalwart_defender
+				trench_rat
+				defense_in_depth_specialist
+				expert_defensive_strategist
+			}
+			save_scope_as = yiffgen2
+		}
+		scope:yffgen2_gen = {
+			transfer_to_formation = scope:
+			yff_army_2
+		}
 	}
 }
