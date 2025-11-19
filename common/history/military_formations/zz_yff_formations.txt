@@ -1,9 +1,5 @@
 MILITARY_FORMATIONS = {
 	c:YFF ?= {
-		# ======================
-		# ======= ARMIES =======
-		# ======================
-		# 2) 2nd Yffian Army — OP (offense)
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_niger
@@ -23,7 +19,7 @@ MILITARY_FORMATIONS = {
 				state_region = s:STATE_OUTER_HAUSALAND
 				count = 10
 			}
-			save_scope_as = yff_army_2
+			save_scope_as = yff_army_1
 		}
 		create_character = {
 			is_general = yes
@@ -45,10 +41,6 @@ MILITARY_FORMATIONS = {
 				expert_offensive_planner
 			}
 			save_scope_as = yiffgen1
-		}
-		scope:yffgen1_gen = {
-			transfer_to_formation = scope:
-			yff_army_2
 		}
 		create_character = {
 			is_general = yes
@@ -74,9 +66,13 @@ MILITARY_FORMATIONS = {
 			}
 			save_scope_as = yiffgen2
 		}
-		scope:yffgen2_gen = {
+		scope:yiffgen1_gen = {
 			transfer_to_formation = scope:
-			yff_army_2
+			yff_army_1
+		}
+		scope:yiffgen2_gen = {
+			transfer_to_formation = scope:
+			yff_army_1
 		}
 	}
 }
