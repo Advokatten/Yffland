@@ -2435,7 +2435,7 @@
 				add_ownership = {
 					country = {
 						country = "c:YFF"
-						levels = 7
+						levels = 10
 					}
 				}
 				reserves = 1
@@ -3773,6 +3773,20 @@
 				activate_production_methods = {
 					"pm_early_trains"
 					"pm_wooden_passenger_carriages"
+				}
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 1
+						region = "STATE_BENIN"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
 				}
 			}
 		}
