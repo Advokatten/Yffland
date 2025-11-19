@@ -1,10 +1,10 @@
 Todo list:
 
 
-* Change pm's in university, paper mill, tooling workshop, textile mill,  mining pms, livestock and farms
-* Set buildings to privatized
+
+* Set buildings to privatized - dont know if you can?
 * Add consumption taxes
-* Add population to outer Hausaland - done?
+
 * Add buildings to port states - done?
 * Add companies to the start of the game
 * Add so you can have 4 companies at the start of the game - only need 3
@@ -42,3 +42,5 @@ DONE TASKS
 * Combine Naval company and farm company - done
 * Add banana farms - done
 * Add 2 more railways to benin - done
+* Change pm's in university, paper mill, tooling workshop, textile mill,  mining pms, livestock and farms - done
+* Add population to outer Hausaland - done

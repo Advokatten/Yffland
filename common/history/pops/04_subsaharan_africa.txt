@@ -355,8 +355,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				religion = animist
-				size = 944400
+				size = 1944400
 			}
 			create_pop = {
 				culture = equatorial_bantu
@@ -393,7 +392,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 968948
+				size = 1968948
 			}
 			create_pop = {
 				culture = ibo
@@ -439,7 +438,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 168948
+				size = 1968948
 			}
 			create_pop = {
 				culture = ibibio
@@ -464,7 +463,42 @@
 	}
 	# If anyone has better numbers for ethnic makeup and overall population figures, hmu
 	s:STATE_OUTER_HAUSALAND = {
-		region_state:HAU = {
+		region_state:YFF = {
+			create_pop = {
+				culture = dyula
+				size = 12040
+			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 72070
+			}
+			create_pop = {
+				culture = tuareg
+				size = 27518
+			}
+			create_pop = {
+				culture = songhai
+				size = 22792
+			}
+			create_pop = {
+				culture = fulbe
+				size = 18487
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = tuareg
+				size = 8600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = songhai
+				size = 6450
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = fulbe
+				size = 6450
+			}
 			create_pop = {
 				culture = hausa
 				size = 968948
@@ -504,45 +538,6 @@
 				culture = fulbe
 				size = 8550
 			}
-		}
-		region_state:YFF = {
-			create_pop = {
-				culture = dyula
-				size = 12040
-			}
-			create_pop = {
-				culture = equatorial_bantu
-				size = 72070
-			}
-			create_pop = {
-				culture = tuareg
-				size = 27518
-			}
-			create_pop = {
-				culture = songhai
-				size = 22792
-			}
-			create_pop = {
-				culture = fulbe
-				size = 18487
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = tuareg
-				size = 8600
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = songhai
-				size = 6450
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = fulbe
-				size = 6450
-			}
-		}
-		region_state:BOR = {
 			create_pop = {
 				culture = kanuri
 				size = 88000
@@ -550,11 +545,6 @@
 			create_pop = {
 				culture = equatorial_bantu
 				size = 20304
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = equatorial_bantu
-				size = 3302
 			}
 		}
 	}
@@ -604,7 +594,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 47004
+				size = 947004
 			}
 			create_pop = {
 				pop_type = slaves
@@ -2018,16 +2008,12 @@
 	s:STATE_NORTH_CAMEROON = {
 		region_state:YFF = {
 			create_pop = {
-				culture = yiffian
-				size = 568000
+				culture = fulbe
+				size = 1568000
 			}
 			create_pop = {
 				culture = kanuri
 				size = 16004
-			}
-			create_pop = {
-				culture = fulbe
-				size = 89988
 			}
 			create_pop = {
 				culture = bedouin
@@ -2043,8 +2029,6 @@
 				culture = fulbe
 				size = 10000
 			}
-		}
-		region_state:BMM = {
 			create_pop = {
 				culture = equatorial_bantu
 				religion = sunni
