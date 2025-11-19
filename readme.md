@@ -1,5 +1,5 @@
 Todo list:
-* Add general to army
+
 * Change some characters so its not a carbon copy of a different mod
 * Add journal entries for country flavour
 * Add formable country when you expand the country
@@ -69,3 +69,4 @@ DONE TASKS
 * Add Colonial law - done
 * Add some government building so colonial law is not in deficit
 * Add tea,opium, silk and fishing buildings - done
+* Add general to army - done
