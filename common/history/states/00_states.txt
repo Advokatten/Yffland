@@ -27910,7 +27910,7 @@ STATES = {
 	}
 	s:STATE_BORNU = {
 		create_state = {
-			country = c:BOR
+			country = c:YFF
 			owned_provinces = {
 				xAA28B4
 				x7A78DD
@@ -27938,6 +27938,7 @@ STATES = {
 		}
 		add_homeland = cu:kanuri
 		add_homeland = cu:fulbe
+		add_homeland = cu:hausa
 	}
 	s:STATE_NIGERIA = {
 		create_state = {

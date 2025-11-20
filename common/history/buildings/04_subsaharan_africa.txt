@@ -23,35 +23,232 @@
 		}
 	}
 	s:STATE_BORNU = {
-		region_state:BOR = {
+		region_state:YFF = {
 			create_building = {
 				building = "building_millet_farm"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:BOR"
+						country = "c:YFF"
 						levels = 2
 						region = "STATE_BORNU"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming"
+					"pm_soil_enriching_farming"
 					"pm_no_secondary"
-					"pm_tools_disabled"
+					"pm_tools_"
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_opium_plantation"
 				add_ownership = {
-					country = {
-						country = "c:BOR"
-						levels = 15
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_BORNU"
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_no_organization"
+					"default_building_opium_plantation"
+					"pm_steam_rail_transport"
+				}
+			}
+			create_building = {
+				building = "building_gold_mine"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_gold_mine"
+					"pm_no_explosives"
+					"pm_no_steam_automation"
+					"pm_rail_transport_mine"
+				}
+			}
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_vertical_filing_cabinets"
+					"pm_professional_bureaucrats"
+					"pm_secular_bureaucrats"
+				}
+			}
+			create_building = {
+				building = "building_trade_center"
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 10
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
+				building = "building_university"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 1
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_philosophy_department"
+					"pm_secular_academia"
+				}
+			}
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_coffee_plantation"
+					"pm_steam_rail_transport"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 7
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_early_trains"
+					"pm_wooden_passenger_carriages"
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 3
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_increased_hardwood"
+					"pm_saw_mills"
+					"pm_no_equipment"
+					"pm_rail_transport_building_logging_camp"
+				}
+			}
+			create_building = {
+				building = "building_textile_mills"
+				add_ownership = {
+					building = {
+						type = "building_textile_mills"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_dye_workshops"
+					"pm_luxury_clothes"
+					"pm_traditional_looms"
+				}
+			}
+			create_building = {
+				building = "building_cotton_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 2
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_cotton_plantation"
+					"pm_steam_rail_transport"
+				}
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 10
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_slaughterhouses"
+					"pm_sheep_farms"
+					"pm_standard_fences"
+					"pm_unrefrigerated"
+				}
+			}
+			create_building = {
+				building = "building_dye_plantation"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:YFF"
+						levels = 1
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_dye_plantation"
+					"pm_steam_rail_transport"
+				}
+			}
+			create_building = {
+				building = "building_tea_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 10
+						region = "STATE_BORNU"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_tea_plantation"
+					"pm_steam_rail_transport"
 				}
 			}
 		}
@@ -2443,6 +2640,22 @@
 					"pm_vertical_filing_cabinets"
 					"pm_professional_bureaucrats"
 					"pm_secular_bureaucrats"
+				}
+			}
+			create_building = {
+				building = "building_tea_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:YFF"
+						levels = 5
+						region = "STATE_HAUSALAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_tea_plantation"
+					"pm_steam_rail_transport"
 				}
 			}
 			create_building = {

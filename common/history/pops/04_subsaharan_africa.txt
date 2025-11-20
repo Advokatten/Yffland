@@ -355,7 +355,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 3944400
+				size = 944400
 			}
 			create_pop = {
 				culture = equatorial_bantu
@@ -556,7 +556,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 119000
+				size = 1119000
 			}
 			create_pop = {
 				pop_type = slaves
