@@ -1,0 +1,76 @@
+company_Bank_of_Yiffia = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/Bank_of_Yiffia.png"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	flavored_company = yes
+	preferred_headquarters = {
+		STATE_HAUSALAND
+	}
+	possible_prestige_goods = {
+		#prestige_good_generic_currency_paper
+	}
+	building_types = {
+		building_paper_mills
+		building_silk_plantation
+		building_military_shipyards
+	}
+	extension_building_types = {
+		building_shipyards
+		building_railway
+		building_coal_mine
+		building_steel_mills
+	}
+	potential = {
+		has_interest_marker_in_region = region_niger
+	}
+	attainable = {
+		hidden_trigger = {
+			# Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_HAUSALAND
+			}
+		}
+	}
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_HAUSALAND
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_financial_district
+				level >= 5
+			}
+		}
+		unique_companies_has_bank = no
+	}
+	prosperity_modifier = {
+		interest_group_ig_landowners_approval_add = -2
+		unit_navy_offense_mult = 0.03
+		country_loan_interest_rate_mult = -0.05		#<-- #price stability, was the main focus
+		country_private_construction_allocation_mult = 1
+		state_farmers_investment_pool_contribution_add = 1
+		state_shopkeepers_investment_pool_contribution_add = 1		#<-- middle class, merchants, esquires 
+		state_clergymen_investment_pool_contribution_add = 1
+		state_aristocrats_investment_pool_contribution_add = 1		#<--- and aristo
+		state_capitalists_investment_pool_contribution_add = 1
+		country_government_dividends_reinvestment_add = 1
+		country_government_dividends_efficiency_add = 1
+		country_max_companies_add = 1
+	}
+	ai_will_do = {
+		unique_companies_has_bank = no
+		any_scope_state = {
+			state_region = s:STATE_HAUSALAND
+			is_incorporated = yes
+		}
+	}
+	ai_construction_targets = {
+		building_paper_mills = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_HAUSALAND
+			}
+		}
+	}
+	ai_weight = {
+		value = 20		# Higher base value for flavored companies
+	}
+}

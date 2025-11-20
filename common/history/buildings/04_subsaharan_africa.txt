@@ -30,7 +30,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:YFF"
-						levels = 2
+						levels = 5
 						region = "STATE_BORNU"
 					}
 				}
@@ -38,7 +38,7 @@
 				activate_production_methods = {
 					"pm_soil_enriching_farming"
 					"pm_no_secondary"
-					"pm_tools_"
+					"pm_tools"
 				}
 			}
 			create_building = {
@@ -3379,7 +3379,8 @@
 			create_building = {
 				building = "building_arms_industry"
 				add_ownership = {
-					country = {
+					building = {
+						type = "building_financial_district"
 						country = "c:YFF"
 						levels = 3
 						region = "STATE_NIGERIA"
@@ -4395,7 +4396,8 @@
 			create_building = {
 				building = "building_food_industry"
 				add_ownership = {
-					country = {
+					building = {
+						type = "building_financial_district"
 						country = "c:YFF"
 						levels = 5
 						region = "STATE_NIGER_DELTA"

@@ -549,7 +549,7 @@
 		}
 	}
 	s:STATE_BORNU = {
-		region_state:BOR = {
+		region_state:YFF = {
 			create_pop = {
 				culture = kanuri
 				size = 423988
