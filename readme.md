@@ -3,7 +3,7 @@ Todo list:
 * Change some characters so its not a carbon copy of a different mod
 * Add journal entries for country flavour
 * Add formable country when you expand the country
-* Add Navy
+
 * Make some puppets for this country
 * Add Power block
 * Add custom companies. i.e bank, split the mega corps when i make custom companies.
@@ -25,22 +25,22 @@ Todo list:
 
 DONE TASKS
 
-* Add states
-* Add arrable land
-* Add resources
-* Add buildings
-* Add laws
-* Add localization files
-* Add institutions
-* Add custom character i lifted from a different mod to understand it, i dont understand it.
-* Add will to live
-* Add custom characters i do understand
-* Steal custom effect for the character i stole
-* Add Army
-* Add shitty commit messages
-* Add good commit messages
-* Add humor to todo list
-* Add megacorp companies
+* Add states - done
+* Add arrable land - done
+* Add resources - done
+* Add buildings - done
+* Add laws - done
+* Add localization files - done
+* Add institutions - done
+* Add custom character i lifted from a different mod to understand it, i dont understand it. - done
+* Add will to live - cant be done
+* Add custom characters i do understand - done
+* Steal custom effect for the character i stole - done
+* Add Army - done
+* Add shitty commit messages - almost done but not really
+* Add good commit messages - done
+* Add humor to todo list - done
+* Add megacorp companies - done
 * Add Construction centers - done
 * Add Gold Mines - done
 * Add Fisheries - done
@@ -70,3 +70,4 @@ DONE TASKS
 * Add some government building so colonial law is not in deficit
 * Add tea,opium, silk and fishing buildings - done
 * Add general to army - done
+* Add Navy - done
