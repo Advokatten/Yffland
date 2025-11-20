@@ -1,15 +1,15 @@
 CHARACTERS = {
 	c:YFF ?= {
 		create_character = {
-			first_name = "Wahyu"
-			last_name = "Ridiansyah"
+			first_name = "Kanajeji"
+			last_name = "Agalawa"
 			historical = yes
 			culture = hausa
 			ruler = yes
 			ig_leader = yes
 			birth_date = 1815.12.23
-			interest_group = ig_intelligentsia
-			ideology = ideology_republican
+			interest_group = ig_industrialists
+			ideology = ideology_market_liberal
 			traits = {
 				expert_political_operator
 				firebrand
@@ -23,7 +23,7 @@ CHARACTERS = {
 				expert_colonial_administrator
 				persistent
 			}
-			dna = dna_wahyu_ridiansyah
+			dna = dna_Kanajeji_Agalawa
 		}
 		create_character = {
 			first_name = "Muhammed_Bello"
@@ -57,7 +57,6 @@ CHARACTERS = {
 			ideology = ideology_republican
 			culture = primary_culture
 			age = 43
-			ig_leader = yes
 			female = yes
 			interest_group = ig_intelligentsia
 			traits = {
