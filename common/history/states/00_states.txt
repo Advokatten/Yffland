@@ -27593,6 +27593,7 @@ STATES = {
 		add_homeland = cu:ibo
 		add_homeland = cu:edo
 		add_homeland = cu:fulbe
+		add_homeland = cu:hausa
 	}
 	s:STATE_YORUBA_STATES = {
 		create_state = {
@@ -27640,6 +27641,8 @@ STATES = {
 		add_homeland = cu:ibo
 		add_homeland = cu:ibibio
 		add_homeland = cu:equatorial_bantu
+		add_homeland = cu:hausa
+		add_homeland = cu:fulbe
 	}
 	s:STATE_OUTER_HAUSALAND = {
 		create_state = {
@@ -28871,6 +28874,7 @@ STATES = {
 		}
 		add_homeland = cu:fulbe
 		add_homeland = cu:equatorial_bantu
+		add_homeland = cu:hausa
 	}
 	s:STATE_SOUTH_CAMEROON = {
 		create_state = {
