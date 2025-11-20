@@ -23,7 +23,7 @@ CHARACTERS = {
 				expert_colonial_administrator
 				persistent
 			}
-			dna = dna_Kanajeji_Agalawa
+			dna = culture
 		}
 		create_character = {
 			first_name = "Muhammed_Bello"

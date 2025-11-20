@@ -1,6 +1,6 @@
 Todo list:
 
-* Change some characters so its not a carbon copy of a different mod
+* Add companies to the start of the game
 * Add journal entries for country flavour
 * Add formable country when you expand the country
 
@@ -61,7 +61,7 @@ DONE TASKS
 * Add population to outer Hausaland - done
 * Add consumption taxes - done
 * Add buildings to port states - done
-* Add companies to the start of the game
+
 * Add so you can have 4 companies at the start of the game - no longer needed
 * Add Ideology to ruler & IG leader that supports Technocracy - not possible due to tecnocracy not avaidable at the start of the game
 * Set buildings to privatized - not possible due to the way the game is coded
@@ -71,3 +71,4 @@ DONE TASKS
 * Add tea,opium, silk and fishing buildings - done
 * Add general to army - done
 * Add Navy - done
+* Change some characters so its not a carbon copy of a different mod - done
