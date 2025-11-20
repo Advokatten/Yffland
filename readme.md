@@ -1,12 +1,11 @@
 Todo list:
 
-* Add companies to the start of the game
+* Add companies to the start of the game - 
 * Add journal entries for country flavour
 * Add formable country when you expand the country
-
 * Make some puppets for this country
 * Add Power block
-* Add custom companies. i.e bank, split the mega corps when i make custom companies.
+* Add custom companies. i.e bank, split the mega corps when i make custom companies. - partially done
 * Change some city names for meme value
 * Add flavour to puppets of Yiffia
 * Make wakanda 
