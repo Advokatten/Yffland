@@ -355,7 +355,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 1944400
+				size = 3944400
 			}
 			create_pop = {
 				culture = equatorial_bantu
@@ -392,7 +392,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 1968948
+				size = 3968948
 			}
 			create_pop = {
 				culture = ibo
@@ -438,7 +438,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 1968948
+				size = 3968948
 			}
 			create_pop = {
 				culture = ibibio
@@ -501,7 +501,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 968948
+				size = 2968948
 			}
 			create_pop = {
 				culture = dyula
@@ -594,7 +594,7 @@
 			}
 			create_pop = {
 				culture = hausa
-				size = 947004
+				size = 3947004
 			}
 			create_pop = {
 				pop_type = slaves
@@ -629,7 +629,7 @@
 			create_pop = {
 				culture = hausa
 				religion = animist
-				size = 947950
+				size = 3947950
 			}
 			create_pop = {
 				culture = fulbe
@@ -2009,7 +2009,7 @@
 		region_state:YFF = {
 			create_pop = {
 				culture = fulbe
-				size = 1568000
+				size = 4568000
 			}
 			create_pop = {
 				culture = kanuri
