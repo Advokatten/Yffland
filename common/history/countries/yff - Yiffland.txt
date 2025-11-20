@@ -5,25 +5,24 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_compulsory_primary_school
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_total_separation
 		activate_law = law_type:law_multicultural
-		activate_law = law_type:law_no_colonial_affairs
-		activate_law = law_type:law_technocracy
+		activate_law = law_type:law_universal_suffrage
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_protected_speech
-		# activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_presidential_republic
+		# activate_law = law_type:law_monarchy
 		activate_law = law_type:law_public_health_insurance
 		activate_law = law_type:law_secret_police
 		activate_law = law_type:law_worker_protections
 		activate_law = law_type:law_commercialized_agriculture
-		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_no_migration_controls
 		activate_law = law_type:law_dedicated_police
-		activate_law = law_type:law_women_in_the_workplace
+		activate_law = law_type:law_womens_suffrage
 		activate_law = law_type:law_slavery_banned
 		activate_law = law_type:law_proportional_taxation
-		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_free_trade
 		activate_law = law_type:law_old_age_pension
 		activate_law = law_type:law_colonial_resettlement
 		add_taxed_goods = g:tobacco
@@ -47,7 +46,7 @@
 		}
 		set_institution_investment_level = {
 			institution = institution_police
-			level = 5
+			level = 3
 		}
 		set_institution_investment_level = {
 			institution = institution_health_system
@@ -56,15 +55,6 @@
 		set_institution_investment_level = {
 			institution = institution_home_affairs
 			level = 1
-		}
-		ig:ig_intelligentsia = {
-			add_ruling_interest_group = yes
-		}
-		ig:ig_devout = {
-			add_ruling_interest_group = yes
-		}
-		ig:ig_armed_forces = {
-			add_ruling_interest_group = yes
 		}
 		add_company = company_type:basic_weapons
 		company:
