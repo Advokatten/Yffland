@@ -2922,6 +2922,21 @@
 				}
 			}
 			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_vertical_filing_cabinets"
+					"pm_professional_bureaucrats"
+					"pm_secular_bureaucrats"
+				}
+			}
+			create_building = {
 				building = "building_explosives_factory"
 				add_ownership = {
 					building = {
@@ -3953,6 +3968,21 @@
 				activate_production_methods = {
 					"pm_unrefrigerated"
 					"pm_fishing_trawlers"
+				}
+			}
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:YFF"
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_vertical_filing_cabinets"
+					"pm_professional_bureaucrats"
+					"pm_secular_bureaucrats"
 				}
 			}
 		}
