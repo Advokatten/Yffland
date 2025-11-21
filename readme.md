@@ -5,15 +5,14 @@ Todo list:
 * Add formable country when you expand the country
 * Make some puppets for this country
 * Add Power block
-
+* Make wakanda 
 * Change some city names for meme value
 * Add flavour to puppets of Yiffia
-* Make wakanda 
+
 * Add custom resources and buildings
-* Add lemuria - if i get time. This is really fking hard
 * Add Korean Finnish hyperwar flavour
-* Add Yakuub
-* Cry
+* Cry - never done
+* Add lemuria - if i get time. This is really fking hard
 
 
 
@@ -77,3 +76,5 @@ DONE TASKS
 * Add Wine to nigeria - done
 * Add custom companies. i.e bank, split the mega corps when i make custom companies. - done
 * Figure out why gov construction just stops - done
+* Figure out why some diplo deals have bricked names - stopped happening by it self
+

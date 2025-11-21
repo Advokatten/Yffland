@@ -184,11 +184,11 @@ STATE_OUTER_HAUSALAND = {
 		"bg_opium_plantations"
 	}
 	capped_resources = {
-		bg_logging = 100
-		bg_iron_mining = 100
-		bg_coal_mining = 100
-		bg_lead_mining = 100
-		bg_sulfur_mining = 100
+		bg_logging = 200
+		bg_iron_mining = 200
+		bg_coal_mining = 200
+		bg_lead_mining = 200
+		bg_sulfur_mining = 200
 		bg_gold_mining = 200
 		bg_oil_extraction = 500
 		bg_rubber = 500
@@ -333,11 +333,11 @@ STATE_EAST_HAUSALAND = {
 		"bg_opium_plantations"
 	}
 	capped_resources = {
-		bg_logging = 100
-		bg_iron_mining = 100
-		bg_coal_mining = 100
-		bg_lead_mining = 100
-		bg_sulfur_mining = 100
+		bg_logging = 200
+		bg_iron_mining = 200
+		bg_coal_mining = 200
+		bg_lead_mining = 200
+		bg_sulfur_mining = 200
 		bg_oil_extraction = 500
 		bg_rubber = 500
 		bg_gold_mining = 200
@@ -415,11 +415,11 @@ STATE_NORTH_CAMEROON = {
 		"bg_opium_plantations"
 	}
 	capped_resources = {
-		bg_logging = 100
-		bg_iron_mining = 100
-		bg_coal_mining = 100
-		bg_lead_mining = 100
-		bg_sulfur_mining = 100
+		bg_logging = 200
+		bg_iron_mining = 200
+		bg_coal_mining = 200
+		bg_lead_mining = 200
+		bg_sulfur_mining = 200
 		bg_oil_extraction = 500
 		bg_rubber = 500
 		bg_gold_mining = 200

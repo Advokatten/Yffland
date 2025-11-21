@@ -1,5 +1,5 @@
 company_metal_banger = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/Yiffia_Unified_Metal.png"
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/gold.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	flavored_company = yes
 	preferred_headquarters = {
@@ -24,14 +24,7 @@ company_metal_banger = {
 		hidden_trigger = {
 			# Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				state_region = s:STATE_NIGERIA
 				state_region = s:STATE_HAUSALAND
-				state_region = s:STATE_BENIN
-				state_region = s:STATE_OUTER_HAUSALAND
-				state_region = s:STATE_NIGER_DELTA
-				state_region = s:STATE_EAST_HAUSALAND
-				state_region = s:STATE_BORNU
-				state_region = s:STATE_NORTH_CAMEROON
 			}
 		}
 	}
@@ -46,7 +39,9 @@ company_metal_banger = {
 		}
 	}
 	prosperity_modifier = {
-		state_construction_mult = 0.1
-		building_construction_sector_throughput_add = 0.1
+		state_loyalists_from_political_movements_mult = 0.075
+		state_radicals_from_political_movements_mult = -0.1
+		country_production_tech_spread_mult = 0.6
+		country_prestige_mult = 0.1
 	}
 }
