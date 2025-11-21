@@ -14,6 +14,8 @@ Todo list:
 * Add Korean Finnish hyperwar flavour
 * Add Yakuub
 * Cry
+* Figure out why gov construction just stops
+
 
 
 
@@ -72,3 +74,4 @@ DONE TASKS
 * Add Navy - done
 * Change some characters so its not a carbon copy of a different mod - done
 * Add companies to the start of the game -  done
+* Add Wine to nigeria - done
