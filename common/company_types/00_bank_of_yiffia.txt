@@ -1,5 +1,5 @@
 company_bank = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/Bank_of_Yiffia.png"
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/bank"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	flavored_company = yes
 	preferred_headquarters = {
