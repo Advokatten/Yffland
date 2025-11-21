@@ -5,7 +5,7 @@ Todo list:
 * Add formable country when you expand the country
 * Make some puppets for this country
 * Add Power block
-* Add custom companies. i.e bank, split the mega corps when i make custom companies. - partially done
+
 * Change some city names for meme value
 * Add flavour to puppets of Yiffia
 * Make wakanda 
@@ -14,7 +14,7 @@ Todo list:
 * Add Korean Finnish hyperwar flavour
 * Add Yakuub
 * Cry
-* Figure out why gov construction just stops
+
 
 
 
@@ -75,3 +75,5 @@ DONE TASKS
 * Change some characters so its not a carbon copy of a different mod - done
 * Add companies to the start of the game -  done
 * Add Wine to nigeria - done
+* Add custom companies. i.e bank, split the mega corps when i make custom companies. - done
+* Figure out why gov construction just stops - done

@@ -24,13 +24,6 @@ company_bad_dragons = {
 			# Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
 				state_region = s:STATE_NIGERIA
-				state_region = s:STATE_HAUSALAND
-				state_region = s:STATE_BENIN
-				state_region = s:STATE_OUTER_HAUSALAND
-				state_region = s:STATE_NIGER_DELTA
-				state_region = s:STATE_EAST_HAUSALAND
-				state_region = s:STATE_BORNU
-				state_region = s:STATE_NORTH_CAMEROON
 			}
 		}
 	}
