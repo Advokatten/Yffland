@@ -1,20 +1,25 @@
-company_bad_dragons = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/tool.png"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+company_møbelringen = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/homegoods.png"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_publishing.dds"
 	flavored_company = yes
 	preferred_headquarters = {
 		STATE_HAUSALAND
 	}
 	building_types = {
-		building_tooling_workshops
-		building_logging_camp
+		building_textile_mills
+		building_furniture_manufacturies
+		building_glassworks
 	}
 	extension_building_types = {
-		building_rubber_plantation
+		building_logging_camp
 	}
 	possible_prestige_goods = {
-		prestige_good_generic_tools
-		prestige_good_burmese_teak
+		prestige_good_canton_porcelain
+		prestige_good_bohemian_crystal
+		prestige_good_haute_couture
+		prestige_good_bentwood_furniture
+		prestige_good_english_upholstery
+		prestige_good_generic_clothes
 	}
 	potential = {
 		has_interest_marker_in_region = region_niger
@@ -39,14 +44,15 @@ company_bad_dragons = {
 			state_region = s:STATE_HAUSALAND
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_tooling_workshops
+				is_building_type = building_textile_mills
 				level >= 1
 			}
 		}
 	}
 	prosperity_modifier = {
-		building_group_bg_manufacturing_throughput_add = 0.5
-		state_infrastructure_from_population_add = 0.7
-		state_infrastructure_from_population_max_add = 15
+		state_loyalists_from_political_movements_mult = 0.075
+		state_radicals_from_political_movements_mult = -0.1
+		country_production_tech_spread_mult = 0.6
+		country_prestige_mult = 0.1
 	}
 }
