@@ -2677,8 +2677,8 @@
 			create_building = {
 				building = "building_paper_mills"
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
+					company = {
+						type = company_bank
 						country = "c:YFF"
 						levels = 10
 						region = "STATE_HAUSALAND"
@@ -3345,11 +3345,11 @@
 			create_building = {
 				building = "building_tooling_workshops"
 				add_ownership = {
-					building = {
-						type = "building_tooling_workshops"
+					company = {
+						type = company_bank
 						country = "c:YFF"
 						levels = 10
-						region = "STATE_NIGERIA"
+						region = "STATE_HAUSALAND"
 					}
 				}
 				reserves = 1

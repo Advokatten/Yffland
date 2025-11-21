@@ -57,15 +57,15 @@
 			institution = institution_home_affairs
 			level = 1
 		}
-		add_company = company_type:basic_weapons
-		company:basic_weapons = {
+		add_company = company_type:company_bank
+		company:company_bank = {
+			set_company_establishment_date = 1807.1.1
+			set_company_state_region = s:STATE_HAUSALAND
+		}
+		add_company = company_type:company_bad_dragons
+		company:company_bad_dragons = {
 			set_company_establishment_date = 1807.1.1
 			set_company_state_region = s:STATE_NIGERIA
-		}
-		add_company = company_type:basic_food
-		company:basic_food = {
-			set_company_establishment_date = 1807.1.1
-			set_company_state_region = s:STATE_NIGER_DELTA
 		}
 		add_modifier = {
 			name = god_grace_modifier
