@@ -4,3 +4,38 @@
 l_english:
  YFF:0 "Yiffia"
  YFF_ADJ:0 "Yiffian"
+
+l_english:
+ #character traits
+ more_unique_companies_banker: "Banker"
+ more_unique_companies_banker_desc: "While capable, the Bank's representative tends to be less efficient in handling internal affairs than most companies."
+
+
+ # Modded generic companies
+ company_basic_bank: "Citizens National Bank"
+ company_basic_state_development_focus: "Government Construction Company"
+ 
+ #Bank gamerule
+ rule_unique_companies_banks:0 "More Unique Companies Banks"
+ setting_banks_enabled:1 "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_banks_enabled_desc The Banks are enabled for AI and Players#!#!"
+ setting_banks_enabled_desc:0 "Banks are visible and usable, and associated events are enabled."
+ setting_banks_disabled:1 "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_banks_disabled_desc The Banks are disabled for AI and Players#!#!"
+ setting_banks_disabled_desc:0 "Banks are neither visible nor usable, and associated events are disabled."
+ #Newspaper gamerule
+ 
+ rule_unique_companies_newspapers:0 "More Unique Companies Newspapers" 
+ setting_newspapers_enabled:1 "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_newspapers_enabled_desc The Newspaper Companies are enabled#!#!"
+ setting_newspapers_enabled_desc:0 "Newspaper Companies are visible and enabled."
+ setting_newspapers_disabled:1 "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_newspapers_disabled_desc The Newspaper Companies are disabled#!#!"
+ setting_newspapers_disabled_desc:0 "Newspaper Companies are invisible and disabled."
+ 
+ # Sphere of Influence
+ # Can be found in sphere_of_influence_2_I_english.yml
+ 
+
+
+
+l_english:
+
+company_bank: "Bank of Yiffia"
+company_newspaper: "Yiffia Today"
