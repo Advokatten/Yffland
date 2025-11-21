@@ -1,6 +1,6 @@
 Todo list:
 
-* Add companies to the start of the game - 
+
 * Add journal entries for country flavour
 * Add formable country when you expand the country
 * Make some puppets for this country
@@ -71,3 +71,4 @@ DONE TASKS
 * Add general to army - done
 * Add Navy - done
 * Change some characters so its not a carbon copy of a different mod - done
+* Add companies to the start of the game -  done

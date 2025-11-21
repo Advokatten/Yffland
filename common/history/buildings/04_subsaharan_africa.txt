@@ -3346,7 +3346,7 @@
 				building = "building_tooling_workshops"
 				add_ownership = {
 					company = {
-						type = company_bank
+						type = company_bad_dragons
 						country = "c:YFF"
 						levels = 10
 						region = "STATE_HAUSALAND"
