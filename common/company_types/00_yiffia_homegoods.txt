@@ -1,5 +1,5 @@
 ﻿company_møbelringen = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/homegoods.png"
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/furnitures.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_publishing.dds"
 	flavored_company = yes
 	preferred_headquarters = {
