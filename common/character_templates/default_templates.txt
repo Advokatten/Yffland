@@ -1,4 +1,4 @@
-### HARDCODED ###
+﻿### HARDCODED ###
 # Must have one entry of the "default" template, the template itself can be modified but one instance of it MUST exist with all parameters filled out
 default = {
 	first_name = culture	# Picks a random first and last name from the culture, combines those together to make one name

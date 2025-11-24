@@ -1,4 +1,4 @@
-# prestige_goods types
+﻿# prestige_goods types
 prestige_good_krupp_guns = {
 	base_good = artillery
 	prestige_bonus = 0.1

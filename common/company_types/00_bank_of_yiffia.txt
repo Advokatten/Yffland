@@ -1,4 +1,4 @@
-company_bank = {
+﻿company_bank = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/bank.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/curtiss_comp_illu_e_commerce_base.dds"
 	flavored_company = yes

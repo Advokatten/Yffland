@@ -1,4 +1,4 @@
-god_grace_modifier = {
+﻿god_grace_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_legitimacy_govt_size_add = 100
 	# country_legitimacy_govt_total_clout_add = 90

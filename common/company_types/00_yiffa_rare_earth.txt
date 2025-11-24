@@ -1,4 +1,4 @@
-company_rare_hole = {
+﻿company_rare_hole = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/rare_earth.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	flavored_company = yes

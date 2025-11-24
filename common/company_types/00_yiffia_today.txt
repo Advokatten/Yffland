@@ -1,4 +1,4 @@
-company_newspaper = {
+﻿company_newspaper = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/newspaper.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_publishing.dds"
 	flavored_company = yes

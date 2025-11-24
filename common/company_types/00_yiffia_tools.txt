@@ -1,4 +1,4 @@
-company_bad_dragons = {
+﻿company_bad_dragons = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/tool.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	flavored_company = yes

@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:YFF ?= {
 		create_character = {
 			first_name = "Kanajeji"
