@@ -1,5 +1,5 @@
 ﻿company_metal_banger = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/Yiffia_Unified_Metal.png"
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/cart.png"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	flavored_company = yes
 	preferred_headquarters = {
