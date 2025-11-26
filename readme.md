@@ -1,6 +1,7 @@
 Todo list:
-
-
+* Change pms so only one furniture factory makes luxury goods
+* Add Military shipyard
+* Add Artillery foundry
 * Add journal entries for country flavour
 * Add formable country when you expand the country
 * Make some puppets for this country
