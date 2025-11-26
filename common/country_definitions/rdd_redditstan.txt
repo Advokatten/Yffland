@@ -1,0 +1,15 @@
+# Redditstan (RDD)
+RDD = {
+    color = {
+        44
+        3
+        104
+    }
+    country_type = recognized
+    tier = principality
+    religion = protestant
+    cultures = {
+        akan
+    }
+    capital = STATE_IVORY_COAST
+}

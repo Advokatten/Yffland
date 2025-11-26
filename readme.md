@@ -13,6 +13,7 @@ Todo list:
 * Add Korean Finnish hyperwar flavour
 * Cry - never done
 * Add lemuria - if i get time. This is really fking hard
+* Change training of army
 
 
 

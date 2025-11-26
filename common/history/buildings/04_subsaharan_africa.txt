@@ -1,11 +1,11 @@
 ﻿BUILDINGS = {
     s:STATE_IVORY_COAST = {
-        region_state:FRA = {
+        region_state:RDD = {
             create_building = {
                 building = "building_port"
                 add_ownership = {
                     country = {
-                        country = "c:FRA"
+                        country = "c:RDD"
                         levels = 1
                     }
                 }
@@ -15,12 +15,7 @@
                 }
             }
         }
-        region_state:BLE = {
-        }
-        region_state:KNG = {
-        }
-        region_state:AYI = {
-        }
+
     }
     s:STATE_BORNU = {
         region_state:YFF = {

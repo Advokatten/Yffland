@@ -1,7 +1,12 @@
 ﻿AI = {
-	c:YFF = {
-		set_strategy = ai_strategy_industrial_expansion		# Administrative
-		set_strategy = ai_strategy_progressive_agenda		# Political
-		set_strategy = ai_strategy_territorial_expansion		# Diplomatic
-	}
+    c:YFF = {
+        set_strategy = ai_strategy_industrial_expansion		# Administrative
+        set_strategy = ai_strategy_progressive_agenda		# Political
+        set_strategy = ai_strategy_territorial_expansion		# Diplomatic
+    }
+    c:RDD = {
+        set_strategy = ai_strategy_industrial_expansion # Administrative
+        set_strategy = ai_strategy_progressive_agenda   # Political
+        set_strategy = ai_strategy_subject_overlord_compliance # Diplomatic
+    }
 }
