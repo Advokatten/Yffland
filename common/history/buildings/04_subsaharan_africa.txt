@@ -249,17 +249,13 @@
         }
     }
     s:STATE_GUINEA = {
-        region_state:MDK = {
-        }
-        region_state:SSU = {
-        }
-        region_state:FTJ = {
+        region_state:RDD = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
                     building = {
                         type = "building_manor_house"
-                        country = "c:FTJ"
+                        country = "c:RDD"
                         levels = 1
                         region = "STATE_GUINEA"
                     }
@@ -271,28 +267,16 @@
                     "pm_tools_disabled"
                 }
             }
-            create_building = {
-                building = "building_barracks"
-                add_ownership = {
-                    country = {
-                        country = "c:FTJ"
-                        levels = 10
-                    }
-                }
-                reserves = 1
-                activate_production_methods = {
-                    "pm_no_organization"
-                }
-            }
+
         }
     }
     s:STATE_GHANA = {
-        region_state:GBR = {
+        region_state:RDD = {
             create_building = {
                 building = "building_port"
                 add_ownership = {
                     country = {
-                        country = "c:GBR"
+                        country = "c:RDD"
                         levels = 1
                     }
                 }
@@ -301,29 +285,12 @@
                     "pm_anchorage"
                 }
             }
-        }
-        region_state:NET = {
-            create_building = {
-                building = "building_port"
-                add_ownership = {
-                    country = {
-                        country = "c:NET"
-                        levels = 1
-                    }
-                }
-                reserves = 1
-                activate_production_methods = {
-                    "pm_anchorage"
-                }
-            }
-        }
-        region_state:ASH = {
             create_building = {
                 building = "building_livestock_ranch"
                 add_ownership = {
                     building = {
                         type = "building_livestock_ranch"
-                        country = "c:ASH"
+                        country = "c:RDD"
                         levels = 1
                         region = "STATE_GHANA"
                     }
@@ -336,29 +303,18 @@
                     "pm_unrefrigerated"
                 }
             }
-            create_building = {
-                building = "building_barracks"
-                add_ownership = {
-                    country = {
-                        country = "c:ASH"
-                        levels = 20
-                    }
-                }
-                reserves = 1
-                activate_production_methods = {
-                    "pm_no_organization"
-                }
-            }
+
         }
+
     }
     s:STATE_TOGO = {
-        region_state:DEN = {
+        region_state:RDD = {
             create_building = {
                 building = "building_dye_plantation"
                 add_ownership = {
                     building = {
                         type = "building_dye_plantation"
-                        country = "c:DEN"
+                        country = "c:RDD"
                         levels = 1
                         region = "STATE_TOGO"
                     }
@@ -373,7 +329,7 @@
                 building = "building_port"
                 add_ownership = {
                     country = {
-                        country = "c:DEN"
+                        country = "c:RDD"
                         levels = 1
                     }
                 }
@@ -383,32 +339,17 @@
                 }
             }
         }
-        region_state:ASH = {
-            create_building = {
-                building = "building_barracks"
-                add_ownership = {
-                    country = {
-                        country = "c:ASH"
-                        levels = 15
-                    }
-                }
-                reserves = 1
-                activate_production_methods = {
-                    "pm_no_organization"
-                }
-            }
-        }
-        region_state:EWE = {
-        }
+
+
     }
     s:STATE_DAHOMEY = {
-        region_state:DAH = {
+        region_state:RDD = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
                     building = {
                         type = "building_manor_house"
-                        country = "c:DAH"
+                        country = "c:RDD"
                         levels = 1
                         region = "STATE_DAHOMEY"
                     }
@@ -425,7 +366,7 @@
                 add_ownership = {
                     building = {
                         type = "building_fishing_wharf"
-                        country = "c:DAH"
+                        country = "c:RDD"
                         levels = 1
                         region = "STATE_DAHOMEY"
                     }
@@ -437,26 +378,11 @@
                 }
             }
             create_building = {
-                building = "building_barracks"
-                add_ownership = {
-                    country = {
-                        country = "c:DAH"
-                        levels = 7
-                    }
-                }
-                reserves = 1
-                activate_production_methods = {
-                    "pm_no_organization"
-                }
-            }
-        }
-        region_state:BRG = {
-            create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
                     building = {
                         type = "building_manor_house"
-                        country = "c:BRG"
+                        country = "c:RDD"
                         levels = 1
                         region = "STATE_DAHOMEY"
                     }
@@ -466,19 +392,6 @@
                     "pm_simple_farming"
                     "pm_no_secondary"
                     "pm_tools_disabled"
-                }
-            }
-            create_building = {
-                building = "building_barracks"
-                add_ownership = {
-                    country = {
-                        country = "c:BRG"
-                        levels = 3
-                    }
-                }
-                reserves = 1
-                activate_production_methods = {
-                    "pm_no_organization"
                 }
             }
         }
@@ -3835,12 +3748,10 @@
         }
     }
     s:STATE_WINDWARD_COAST = {
-        region_state:KBD = {
+        region_state:RDD = {
         }
-        region_state:BLE = {
-        }
-        region_state:KRU = {
-        }
+
+
     }
     s:STATE_SENEGAL = {
         region_state:FRA = {
@@ -4001,10 +3912,9 @@
         }
     }
     s:STATE_VOLTA = {
-        region_state:MOS = {
+        region_state:RDD = {
         }
-        region_state:KNG = {
-        }
+
     }
     s:STATE_LIBERIA = {
         region_state:LIB = {
@@ -4306,22 +4216,22 @@
         }
     }
     s:STATE_YORUBA_STATES = {
-        region_state:OYO = {
+        region_state:YFF = {
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
                     building = {
                         type = "building_manor_house"
-                        country = "c:OYO"
+                        country = "c:YFF"
                         levels = 2
                         region = "STATE_YORUBA_STATES"
                     }
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "pm_simple_farming"
+                    "pm_soil_enriching_farming"
                     "pm_no_secondary"
-                    "pm_tools_disabled"
+                    "pm_tools"
                 }
             }
             create_building = {
@@ -4329,15 +4239,15 @@
                 add_ownership = {
                     building = {
                         type = "building_fishing_wharf"
-                        country = "c:OYO"
+                        country = "c:YFF"
                         levels = 1
                         region = "STATE_YORUBA_STATES"
                     }
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "pm_simple_fishing"
                     "pm_unrefrigerated"
+                    "pm_fishing_trawlers"
                 }
             }
         }
