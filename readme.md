@@ -77,4 +77,5 @@ DONE TASKS
 * Add custom companies. i.e bank, split the mega corps when i make custom companies. - done
 * Figure out why gov construction just stops - done
 * Figure out why some diplo deals have bricked names - stopped happening by it self
+* Split furniture building to different states - done
 
