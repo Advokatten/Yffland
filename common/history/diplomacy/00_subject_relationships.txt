@@ -1,0 +1,8 @@
+DIPLOMACY = {
+    c:YFF ?= {
+        create_diplomatic_pact = {
+            country = c:RDD
+            type = puppet
+        }
+    }
+}
