@@ -1,0 +1,115 @@
+﻿MILITARY_FORMATIONS = {
+	c:YFF ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = "Yiffian Defense Army"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_OUTER_HAUSALAND
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_OUTER_HAUSALAND
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_OUTER_HAUSALAND
+				count = 10
+			}
+			save_scope_as = yff_army_1
+		}
+		create_character = {
+			is_general = yes
+			first_name = culture
+			last_name = culture
+			historical = no
+			hq = region_niger
+			culture = ig_before_primary_culture
+			female = no
+			dna = random
+			commander_rank = commander_rank_3
+			age = 20
+			interest_group = random
+			traits = {
+				expert_artillery_commander
+				resupply_commander
+				plains_commander
+				mountain_commander
+				expert_offensive_planner
+			}
+			save_scope_as = yiffgen1
+		}
+		create_character = {
+			is_general = yes
+			first_name = culture
+			last_name = culture
+			historical = no
+			hq = region_niger
+			culture = ig_before_primary_culture
+			female = no
+			dna = random
+			commander_rank = commander_rank_3
+			age = 20
+			interest_group = random
+			traits = {
+				resupply_commander
+				plains_commander
+				mountain_commander
+				surveyor
+				stalwart_defender
+				trench_rat
+				defense_in_depth_specialist
+				expert_defensive_strategist
+			}
+			save_scope_as = yiffgen2
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_niger
+			name = "Navy Tasnkforce 1"
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_BENIN
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_NIGER_DELTA
+				count = 30
+			}
+			save_scope_as = yff_fleet_1
+		}
+		create_character = {
+			is_admiral = yes
+			first_name = culture
+			last_name = culture
+			historical = no
+			hq = region_niger
+			culture = ig_before_primary_culture
+			female = no
+			dna = random
+			commander_rank = commander_rank_3
+			age = 20
+			traits = {
+				expert_naval_commander
+				brave
+				meticulous
+			}
+			save_scope_as = yff_adm_1
+		}
+		scope:yff_adm_1 = {
+			transfer_to_formation = scope:yff_fleet_1
+		}
+		scope:yiffgen1_gen = {
+			transfer_to_formation = scope:
+			yff_army_1
+		}
+		scope:yiffgen2_gen = {
+			transfer_to_formation = scope:
+			yff_army_1
+		}
+	}
+}
