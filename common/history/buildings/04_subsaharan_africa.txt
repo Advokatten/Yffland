@@ -3985,6 +3985,17 @@
                     "pm_tools"
                 }
             }
+            create_building={
+                building="building_military_shipyards"
+                add_ownership={
+                    country={
+                        country="c:YFF"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
+            }
             create_building = {
                 building = "building_glassworks"
                 add_ownership = {
