@@ -1,5 +1,5 @@
 Todo list:
-* Change pms so only one furniture factory makes luxury goods
+* Change to monarchy
 * Add Military shipyard
 * Add Artillery foundry
 * Add journal entries for country flavour
@@ -80,4 +80,6 @@ DONE TASKS
 * Figure out why gov construction just stops - done
 * Figure out why some diplo deals have bricked names - stopped happening by it self
 * Split furniture building to different states - done
+* Change pms so only one furniture factory makes luxury goods - done
+
 
