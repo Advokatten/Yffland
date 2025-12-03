@@ -841,7 +841,7 @@
         }
     }
     s:STATE_MAURITANIA = {
-        region_state:OUA = {
+        region_state:RDD = {
             create_pop = {
                 culture = bidan
                 size = 52000
@@ -855,8 +855,6 @@
                 culture = haratin
                 size = 10000
             }
-        }
-        region_state:TRZ = {
             create_pop = {
                 culture = bidan
                 size = 80000
@@ -870,8 +868,6 @@
                 culture = haratin
                 size = 4000
             }
-        }
-        region_state:FTR = {
             create_pop = {
                 culture = fulbe
                 size = 10000
@@ -899,10 +895,11 @@
                 culture = haratin
                 size = 4000
             }
+
         }
     }
     s:STATE_INNER_MAURITANIA = {
-        region_state:OUA = {
+        region_state:RDD = {
             create_pop = {
                 culture = bidan
                 size = 36000
@@ -978,7 +975,7 @@
         }
     }
     s:STATE_TIMBUKTU = {
-        region_state:ADG = {
+        region_state:RDD = {
             create_pop = {
                 culture = songhai
                 size = 14000
@@ -1001,8 +998,6 @@
                 culture = tuareg
                 size = 48396
             }
-        }
-        region_state:MSN = {
             create_pop = {
                 culture = songhai
                 size = 140000

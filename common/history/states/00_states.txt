@@ -13588,7 +13588,7 @@ STATES = {
     }
     s:STATE_LIBERIA = {
         create_state = {
-            country = c:LIB
+            country = c:RDD
             owned_provinces = {
                 x0075FC
                 xDF8050
@@ -13608,11 +13608,8 @@ STATES = {
                 x8616D7
             }
         }
-        add_homeland = cu:mande
-        add_homeland = cu:kru
-        add_homeland = cu:bassa
-        add_homeland = cu:kissi
-        add_homeland = cu:afro_american		# TEMPORARY CIRCA 2022
+        add_homeland = cu:akan
+        # TEMPORARY CIRCA 2022
     }
     s:STATE_EMILIA = {
         create_state = {
@@ -26939,7 +26936,7 @@ STATES = {
     }
     s:STATE_MAURITANIA = {
         create_state = {
-            country = c:OUA
+            country = c:RDD
             owned_provinces = {
                 xDC457A
                 xFBDBB8
@@ -26998,11 +26995,6 @@ STATES = {
                 x6566A0
                 x21A0F5
                 xF0F041
-            }
-        }
-        create_state = {
-            country = c:TRZ
-            owned_provinces = {
                 xB070C0
                 x7030C0
                 x6DFD32
@@ -27013,11 +27005,6 @@ STATES = {
                 x8E8C95
                 xCBCD11
                 x1EF394
-            }
-        }
-        create_state = {
-            country = c:FTR
-            owned_provinces = {
                 xF0F041
                 x6566A0
                 x313645
@@ -27026,12 +27013,12 @@ STATES = {
                 xB03040
             }
         }
-        add_homeland = cu:bidan
-        add_homeland = cu:haratin
+        add_homeland = cu:akan
+
     }
     s:STATE_INNER_MAURITANIA = {
         create_state = {
-            country = c:OUA
+            country = c:RDD
             owned_provinces = {
                 x83453A
                 x6CD340
@@ -27181,10 +27168,8 @@ STATES = {
                 x5DF3C0
             }
         }
-        add_homeland = cu:bidan
-        add_homeland = cu:mande
-        add_homeland = cu:haratin
-        add_homeland = cu:bedouin
+        add_homeland = cu:akan
+
     }
     s:STATE_EASTERN_MALI = {
         create_state = {
@@ -27290,7 +27275,7 @@ STATES = {
     }
     s:STATE_TIMBUKTU = {
         create_state = {
-            country = c:ADG
+            country = c:RDD
             owned_provinces = {
                 x052B92
                 x0750BB
@@ -27447,11 +27432,6 @@ STATES = {
                 x41BCC0
                 x618E40
                 x9EF5BD
-            }
-        }
-        create_state = {
-            country = c:MSN
-            owned_provinces = {
                 xF070C0
                 x761045
                 xA6DB06
@@ -27464,10 +27444,9 @@ STATES = {
                 xD802D5
             }
         }
-        add_homeland = cu:tuareg
-        add_homeland = cu:songhai
-        add_homeland = cu:fulbe
-        add_homeland = cu:mande
+
+        add_homeland = cu:akan
+
     }
     s:STATE_HAUSALAND = {
         create_state = {
@@ -29099,7 +29078,7 @@ STATES = {
     }
     s:STATE_SENEGAL = {
         create_state = {
-            country = c:FRA
+            country = c:RDD
             owned_provinces = {
                 xEF30C0
                 x339E4C
@@ -29107,12 +29086,6 @@ STATES = {
                 x267B18
                 x329831
                 x3A5023
-            }
-            state_type = unincorporated
-        }
-        create_state = {
-            country = c:JLF
-            owned_provinces = {
                 x7B4218
                 xCBF5C9
                 x1F187B
@@ -29121,50 +29094,27 @@ STATES = {
                 xECB3CF
                 x2227E7
                 x008EC3
-            }
-        }
-        create_state = {
-            country = c:CAY
-            owned_provinces = {
                 x70B0C0
                 xBCFFB5
-            }
-        }
-        create_state = {
-            country = c:FTR
-            owned_provinces = {
                 x696F38
                 x15407B
                 x12B16A
             }
+
         }
-        add_homeland = cu:fulbe
-        add_homeland = cu:wolof
-        add_homeland = cu:mande
-        add_homeland = cu:dyula
+        add_homeland = cu:Akan
+
     }
     s:STATE_GAMBIA = {
         create_state = {
-            country = c:POR
+            country = c:RDD
             owned_provinces = {
                 x7486F1
                 x9933B7
                 x04FDE5
                 x146701
-            }
-            state_type = unincorporated
-        }
-        create_state = {
-            country = c:GBR
-            owned_provinces = {
                 x7B561C
                 xB07040
-            }
-            state_type = unincorporated
-        }
-        create_state = {
-            country = c:SRR
-            owned_provinces = {
                 x269443
                 x186409
                 x969FBB
@@ -29172,11 +29122,6 @@ STATES = {
                 x656C64
                 xA90C4B
                 xB6C103
-            }
-        }
-        create_state = {
-            country = c:BND
-            owned_provinces = {
                 x307041
                 xD6E38D
                 xE70946
@@ -29185,11 +29130,6 @@ STATES = {
                 x08DC87
                 x4983E8
                 xB0EF40
-            }
-        }
-        create_state = {
-            country = c:KBU
-            owned_provinces = {
                 xCD9D60
                 xF8E5E2
                 xD633FE
@@ -29200,16 +29140,15 @@ STATES = {
                 x5A627D
                 xEB469A
             }
+
         }
-        add_homeland = cu:mande
+
         add_homeland = cu:akan
-        add_homeland = cu:bambara
-        add_homeland = cu:fulbe
-        add_homeland = cu:wolof
+
     }
     s:STATE_SIERRA_LEONE = {
         create_state = {
-            country = c:SIL
+            country = c:RDD
             owned_provinces = {
                 xBBF47C
                 x608050
@@ -29225,10 +29164,9 @@ STATES = {
                 x883E85
             }
         }
-        add_homeland = cu:mande
+
         add_homeland = cu:akan
-        add_homeland = cu:kissi
-        add_homeland = cu:fulbe
+
     }
     s:STATE_ZULULAND = {
         create_state = {

@@ -1,7 +1,7 @@
 Todo list:
-* Change to monarchy
-* Add Military shipyard
-* Add Artillery foundry
+
+
+
 * Add journal entries for country flavour
 * Add formable country when you expand the country
 * Make some puppets for this country
@@ -63,7 +63,7 @@ DONE TASKS
 * Add population to outer Hausaland - done
 * Add consumption taxes - done
 * Add buildings to port states - done
-
+* Add Artillery foundry - done
 * Add so you can have 4 companies at the start of the game - no longer needed
 * Add Ideology to ruler & IG leader that supports Technocracy - not possible due to tecnocracy not avaidable at the start of the game
 * Set buildings to privatized - not possible due to the way the game is coded
@@ -81,5 +81,6 @@ DONE TASKS
 * Figure out why some diplo deals have bricked names - stopped happening by it self
 * Split furniture building to different states - done
 * Change pms so only one furniture factory makes luxury goods - done
-
+* Change to monarchy - done
+* Add Military shipyard - done
 

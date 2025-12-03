@@ -1426,30 +1426,16 @@
         }
     }
     s:STATE_MAURITANIA={
-        region_state:OUA={
-        }
-        region_state:TRZ={
-        }
-        region_state:FTR={
-            create_building={
-                building="building_barracks"
-                add_ownership={
-                    country={
-                        country="c:FTR"
-                        levels=5
-                    }
-                }
-                reserves=1
-                activate_production_methods={ "pm_no_organization" }
-            }
+        region_state:RDD={
             create_building={
                 building= "building_eye_of_sahara"
                 level = 1
+                region = "STATE_MAURITANIA"
             }
         }
     }
     s:STATE_INNER_MAURITANIA={
-        region_state:OUA={
+        region_state:RDD={
         }
     }
     s:STATE_EASTERN_MALI={
@@ -1514,10 +1500,9 @@
         }
     }
     s:STATE_TIMBUKTU={
-        region_state:ADG={
+        region_state:RDD={
         }
-        region_state:MSN={
-        }
+
     }
     s:STATE_NIGER={
         region_state:AIR={
