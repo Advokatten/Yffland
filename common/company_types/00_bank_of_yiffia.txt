@@ -4,7 +4,7 @@
 
     preferred_headquarters = {
         STATE_HAUSALAND
-        STATE_VOLTA
+
     }
     possible_prestige_goods = {
         #prestige_good_generic_currency_paper
@@ -29,13 +29,14 @@
             # Hide attainable if it's always fulfilled by possible
             any_scope_state = {
                 state_region = s:STATE_HAUSALAND
-                state_region = s:STATE_VOLTA
+
             }
         }
     }
     possible = {
         any_scope_state = {
-            state_region = s:STATE_HAUSALAND
+            region = sr:region_niger
+
             is_incorporated = yes
             any_scope_building = {
                 is_building_type = building_financial_district
@@ -43,14 +44,7 @@
             }
         }
         unique_companies_has_bank = no
-        any_scope_state = {
-            state_region = s:STATE_VOLTA
-            is_incorporated = yes
-            any_scope_building = {
-                is_building_type = building_financial_district
-                level >= 5
-            }
-        }
+
     }
     prosperity_modifier = {
         interest_group_ig_landowners_approval_add = -2

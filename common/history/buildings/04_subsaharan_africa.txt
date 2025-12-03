@@ -4131,8 +4131,8 @@
             create_building = {
                 building = "building_tooling_workshops"
                 add_ownership = {
-                    company = {
-                        type = company_bad_dragons
+                    country = {
+
                         country = "c:RDD"
                         levels = 1
                         region = "STATE_VOLTA"

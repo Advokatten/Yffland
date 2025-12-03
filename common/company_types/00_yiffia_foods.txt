@@ -4,7 +4,7 @@ company_agriculture = {
 
     preferred_headquarters = {
         STATE_HAUSALAND
-        STATE_VOLTA
+
 
     }
     building_types = {
@@ -24,19 +24,19 @@ company_agriculture = {
     }
     potential = {
         has_interest_marker_in_region = region_niger
-        has_interest_marker_in_region = region_senegal
+
     }
     attainable = {
         hidden_trigger = {
             any_scope_state = {
                 state_region = s:STATE_HAUSALAND
-                state_region = s:STATE_VOLTA
+
             }
         }
     }
     possible = {
         any_scope_state = {
-            state_region = s:STATE_HAUSALAND
+            region = sr:region_niger
 
             is_incorporated = yes
             any_scope_building = {
@@ -44,14 +44,7 @@ company_agriculture = {
                 level >= 1
             }
         }
-        any_scope_state = {
-            state_region = s:STATE_VOLTA
-            is_incorporated = yes
-            any_scope_building = {
-                is_building_type = building_millet_farm
-                level >= 1
-            }
-        }
+
     }
     prosperity_modifier = {
         building_food_industry_throughput_add = 0.5

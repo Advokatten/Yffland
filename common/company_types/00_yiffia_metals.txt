@@ -4,7 +4,7 @@ company_metal_banger = {
 
     preferred_headquarters = {
         STATE_HAUSALAND
-        STATE_VOLTA
+
     }
     building_types = {
         building_iron_mine
@@ -20,34 +20,28 @@ company_metal_banger = {
     }
     potential = {
         has_interest_marker_in_region = region_niger
-        has_interest_marker_in_region = region_senegal
+
     }
     attainable = {
         hidden_trigger = {
             # Hide attainable if it's always fulfilled by possible
             any_scope_state = {
                 state_region = s:STATE_NIGERIA
-                state_region = s:STATE_VOLTA
+
             }
         }
     }
     possible = {
         any_scope_state = {
-            state_region = s:STATE_HAUSALAND
+            region = sr:region_niger
+
             is_incorporated = yes
             any_scope_building = {
                 is_building_type = building_iron_mine
                 level >= 2
             }
         }
-        any_scope_state = {
-            state_region = s:STATE_VOLTA
-            is_incorporated = yes
-            any_scope_building = {
-                is_building_type = building_iron_mine
-                level >= 2
-            }
-        }
+
     }
     prosperity_modifier = {
         state_loyalists_from_political_movements_mult = 0.075

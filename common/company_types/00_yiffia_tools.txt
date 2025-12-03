@@ -4,7 +4,7 @@
 
     preferred_headquarters = {
         STATE_HAUSALAND
-        STATE_VOLTA
+
     }
     building_types = {
         building_tooling_workshops
@@ -27,27 +27,20 @@
             # Hide attainable if it's always fulfilled by possible
             any_scope_state = {
                 state_region = s:STATE_NIGERIA
-                state_region = s:STATE_VOLTA
             }
         }
     }
     possible = {
         any_scope_state = {
-            state_region = s:STATE_HAUSALAND
+            region = sr:region_niger
+
             is_incorporated = yes
             any_scope_building = {
                 is_building_type = building_tooling_workshops
                 level >= 1
             }
         }
-        any_scope_state = {
-            state_region = s:STATE_VOLTA
-            is_incorporated = yes
-            any_scope_building = {
-                is_building_type = building_tooling_workshops
-                level >= 1
-            }
-        }
+
     }
     prosperity_modifier = {
         building_group_bg_manufacturing_throughput_add = 0.5
