@@ -3950,59 +3950,60 @@
                 }
             }
 
-
         }
-        s:STATE_SIERRA_LEONE = {
-            region_state:RDD = {
-                create_building = {
-                    building = "building_millet_farm"
-                    add_ownership = {
-                        building = {
-                            type = "building_manor_house"
-                            country = "c:RDD"
-                            levels = 2
-                            region = "STATE_SIERRA_LEONE"
-                        }
-                    }
-                    reserves = 1
-                    activate_production_methods = {
-                        "pm_simple_farming"
-                        "pm_no_secondary"
-                        "pm_tools_disabled"
+    }
+
+    s:STATE_SIERRA_LEONE = {
+        region_state:RDD = {
+            create_building = {
+                building = "building_millet_farm"
+                add_ownership = {
+                    building = {
+                        type = "building_manor_house"
+                        country = "c:RDD"
+                        levels = 2
+                        region = "STATE_SIERRA_LEONE"
                     }
                 }
-                create_building = {
-                    building = "building_port"
-                    add_ownership = {
-                        country = {
-                            country = "c:RDD"
-                            levels = 1
-                        }
-                    }
-                    reserves = 1
-                    activate_production_methods = {
-                        "pm_anchorage"
+                reserves = 1
+                activate_production_methods = {
+                    "pm_simple_farming"
+                    "pm_no_secondary"
+                    "pm_tools_disabled"
+                }
+            }
+            create_building = {
+                building = "building_port"
+                add_ownership = {
+                    country = {
+                        country = "c:RDD"
+                        levels = 1
                     }
                 }
-                create_building = {
-                    building = "building_government_administration"
-                    add_ownership = {
-                        country = {
-                            country = "c:RDD"
-                            levels = 3
-                            region = "STATE_SIERRA_LEONE"
-                        }
+                reserves = 1
+                activate_production_methods = {
+                    "pm_anchorage"
+                }
+            }
+            create_building = {
+                building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country = "c:RDD"
+                        levels = 3
+                        region = "STATE_SIERRA_LEONE"
                     }
-                    reserves = 1
-                    activate_production_methods = {
-                        "pm_vertical_filing_cabinets"
-                        "pm_professional_bureaucrats"
-                        "pm_secular_bureaucrats"
-                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    "pm_vertical_filing_cabinets"
+                    "pm_professional_bureaucrats"
+                    "pm_secular_bureaucrats"
                 }
             }
         }
     }
+
     s:STATE_VOLTA = {
         region_state:RDD = {
             create_building = {
@@ -4025,7 +4026,7 @@
                 building = "building_millet_farm"
                 add_ownership = {
                     company = {
-                        type = company_agriculture
+                        type = company_foods
                         country = "c:RDD"
                         levels = 2
                         region = "STATE_VOLTA"
@@ -4059,7 +4060,7 @@
                 building = "building_lead_mine"
                 add_ownership = {
                     company = {
-                        type = company_rare_hole
+                        type = company_tooling
                         country = "c:RDD"
                         levels = 1
                         region = "STATE_VOLTA"

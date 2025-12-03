@@ -1,0 +1,56 @@
+company_ikea = {
+    icon = "gfx/interface/icons/company_icons/historical_company_icons/planning.png"
+    background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_publishing.dds"
+
+    preferred_headquarters = {
+        STATE_VOLTA
+
+    }
+    building_types = {
+        building_textile_mills
+        building_furniture_manufacturies
+        building_glassworks
+    }
+    extension_building_types = {
+        building_logging_camp
+    }
+    possible_prestige_goods = {
+        prestige_good_canton_porcelain
+        prestige_good_bohemian_crystal
+        prestige_good_haute_couture
+        prestige_good_bentwood_furniture
+        prestige_good_english_upholstery
+        prestige_good_generic_clothes
+    }
+    potential = {
+        has_interest_marker_in_region = region_senegal
+
+    }
+    attainable = {
+        hidden_trigger = {
+            # Hide attainable if it's always fulfilled by possible
+            any_scope_state = {
+                state_region = s:STATE_VOLTA
+
+            }
+        }
+    }
+    possible = {
+        any_scope_state = {
+            region = sr:region_senegal
+
+            is_incorporated = yes
+            any_scope_building = {
+                is_building_type = building_textile_mills
+                level >= 1
+            }
+        }
+
+    }
+    prosperity_modifier = {
+        state_loyalists_from_political_movements_mult = 0.075
+        state_radicals_from_political_movements_mult = -0.1
+        country_production_tech_spread_mult = 0.6
+        country_prestige_mult = 0.1
+    }
+}
