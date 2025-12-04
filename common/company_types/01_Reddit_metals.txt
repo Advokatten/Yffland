@@ -34,7 +34,6 @@ company_metals = {
     possible = {
         any_scope_state = {
             region = sr:region_senegal
-
             is_incorporated = yes
             any_scope_building = {
                 is_building_type = building_iron_mine

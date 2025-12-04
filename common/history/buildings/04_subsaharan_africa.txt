@@ -4022,11 +4022,28 @@
                     "pm_secular_bureaucrats"
                 }
             }
+            create_building={
+                building = "building_wheat_farm"
+                add_ownership = {
+                    building = {
+                        type = "building_financial_district"
+                        country = "c:RDD"
+                        levels = 2
+                        region = "STATE_VOLTA"
+                    }
+                }
+                reserves=1
+                activate_production_methods={
+                    "pm_simple_farming"
+                    "pm_no_secondary"
+                    "pm_tools_disabled"
+                }
+            }
             create_building = {
                 building = "building_millet_farm"
                 add_ownership = {
-                    company = {
-                        type = company_foods
+                    building = {
+                        type = "building_financial_district"
                         country = "c:RDD"
                         levels = 2
                         region = "STATE_VOLTA"
@@ -4059,8 +4076,8 @@
             create_building = {
                 building = "building_lead_mine"
                 add_ownership = {
-                    company = {
-                        type = company_tooling
+                    building = {
+                        type = "building_financial_district"
                         country = "c:RDD"
                         levels = 1
                         region = "STATE_VOLTA"

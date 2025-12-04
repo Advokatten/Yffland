@@ -58,17 +58,7 @@ COUNTRIES = {
             institution = institution_home_affairs
             level = 1
         }
-        add_company = company_type:company_foods
-        company:company_agriculture = {
-            set_company_establishment_date = 1807.1.1
-            set_company_state_region = s:STATE_VOLTA
-        }
 
-        add_company = company_type:company_tooling
-        company:company_tooling = {
-            set_company_establishment_date = 1807.1.1
-            set_company_state_region = s:STATE_VOLTA
-        }
 
 
     }

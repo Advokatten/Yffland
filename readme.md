@@ -1,7 +1,7 @@
 Todo list:
 
 
-
+* Figure out why the fk companies dont work for Redditstan
 * Add journal entries for country flavour
 * Add formable country when you expand the country
 * Make some puppets for this country
