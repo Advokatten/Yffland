@@ -35,7 +35,7 @@
     }
     possible = {
         any_scope_state = {
-            region = sr:region_niger
+            state_region = s:STATE_HAUSALAND
 
             is_incorporated = yes
             any_scope_building = {
