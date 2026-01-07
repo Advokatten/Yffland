@@ -52,32 +52,32 @@ STATE_HAUSALAND = {
     wood = "x8E8AC1"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_logging = 200
-        bg_iron_mining = 200
-        bg_coal_mining = 200
-        bg_lead_mining = 200
-        bg_sulfur_mining = 200
-        bg_gold_mining = 200
-        bg_rubber = 500
-        bg_oil_extraction = 500
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 }
 
@@ -168,32 +168,32 @@ STATE_OUTER_HAUSALAND = {
     wood = "xC438ED"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_logging = 200
-        bg_iron_mining = 200
-        bg_coal_mining = 200
-        bg_lead_mining = 200
-        bg_sulfur_mining = 200
-        bg_gold_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 }
 
@@ -247,32 +247,32 @@ STATE_NIGERIA = {
     wood = "xA591CC"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_logging = 200
-        bg_iron_mining = 200
-        bg_coal_mining = 200
-        bg_lead_mining = 200
-        bg_sulfur_mining = 200
-        bg_gold_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 }
 
@@ -317,32 +317,32 @@ STATE_EAST_HAUSALAND = {
     wood = "x933DAA"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_logging = 200
-        bg_iron_mining = 200
-        bg_coal_mining = 200
-        bg_lead_mining = 200
-        bg_sulfur_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 }
 
@@ -399,32 +399,32 @@ STATE_NORTH_CAMEROON = {
     wood = "xE0307A"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_logging = 200
-        bg_iron_mining = 200
-        bg_coal_mining = 200
-        bg_lead_mining = 200
-        bg_sulfur_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 }
 
@@ -459,34 +459,32 @@ STATE_NIGER_DELTA = {
     wood = "x4D3C3A"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_logging = 200
-        bg_fishing = 200
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_lead_mining = 200
-        bg_sulfur_mining = 200
-        bg_whaling = 200
-        bg_rubber = 500
-        bg_oil_extraction = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
     naval_exit_id = 3091
 }
@@ -521,33 +519,32 @@ STATE_BENIN = {
     wood = "xB8FA68"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
     naval_exit_id = 3091
 }
@@ -588,33 +585,32 @@ STATE_BORNU = {
     wood = "x9F6B9E"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 }
 
@@ -648,33 +644,32 @@ STATE_YORUBA_STATES = {
     wood = "x936421"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
     naval_exit_id = 3091
@@ -723,33 +718,32 @@ STATE_IVORY_COAST = {
     wood = "x422883"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
     naval_exit_id = 3091
@@ -808,33 +802,32 @@ STATE_GHANA = {
     wood = "xE797D7"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
     naval_exit_id = 3091
@@ -875,33 +868,32 @@ STATE_TOGO = {
     wood = "xE8CC9C"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
     naval_exit_id = 3091
@@ -944,33 +936,32 @@ STATE_DAHOMEY = {
     wood = "x012190"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
     naval_exit_id = 3091
@@ -1042,33 +1033,32 @@ STATE_VOLTA = {
     wood = "x6012BE"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
 }
@@ -1122,33 +1112,32 @@ STATE_WINDWARD_COAST = {
     wood = "x7D3EA7"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
     naval_exit_id = 3091
@@ -1224,33 +1213,32 @@ STATE_GUINEA = {
     wood = "x380214"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
     naval_exit_id = 3088
@@ -1283,33 +1271,32 @@ STATE_SIERRA_LEONE = {
     wood = "x884E8D"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
     naval_exit_id = 3088
@@ -1346,33 +1333,32 @@ STATE_LIBERIA = {
     wood = "xA94E67"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
 
     naval_exit_id = 3088
@@ -1431,33 +1417,32 @@ STATE_GAMBIA = {
     wood = "x307041"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
     naval_exit_id = 3088
 }
@@ -1497,33 +1482,32 @@ STATE_SENEGAL = {
     wood = "x12B16A"
     arable_land = 1000
     arable_resources = {
-        "bg_millet_farms"
-        "bg_wheat_farms"
-        "bg_rice_farm"
-        "bg_rye_farms"
-        "bg_maze_farm"
-        "bg_silk_plantations"
-        "bg_livestock_ranches"
-        "bg_coffee_plantations"
-        "bg_cotton_plantations"
-        "bg_dye_plantations"
-        "bg_tea_plantations"
-        "bg_tobacco_plantations"
-        "bg_sugar_plantations"
-        "bg_banana_plantations"
-        "bg_vineyard_plantations"
-        "bg_opium_plantations"
+        "building_wheat_farms"
+        "building_millet_farms"
+        "building_rice_farm"
+        "building_rye_farms"
+        "building_maze_farm"
+        "building_silk_plantations"
+        "building_livestock_ranches"
+        "building_coffee_plantations"
+        "building_cotton_plantations"
+        "building_dye_plantations"
+        "building_tea_plantations"
+        "building_tobacco_plantations"
+        "building_sugar_plantations"
+        "building_banana_plantations"
+        "building_vineyard_plantations"
+        "building_opium_plantations"
     }
     capped_resources = {
-        bg_coal_mining = 200
-        bg_iron_mining = 200
-        bg_logging = 200
-        bg_fishing = 200
-        bg_sulfur_mining = 200
-        bg_lead_mining = 200
-        bg_oil_extraction = 500
-        bg_rubber = 500
-        bg_gold_mining = 200
+        building_logging = 200
+        building_iron_mining = 200
+        building_coal_mining = 200
+        building_lead_mining = 200
+        building_sulfur_mining = 200
+        building_gold_mining = 200
+        building_rubber = 500
+        building_oil_extraction = 500
     }
     naval_exit_id = 3088
 }
