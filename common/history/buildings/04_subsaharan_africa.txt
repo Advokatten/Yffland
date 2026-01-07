@@ -159,7 +159,9 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+
+                    "coffee_plantation_wet_process_manual"
+                    "coffee_plantation_patio_drying"
                     "pm_steam_rail_transport"
                 }
             }
@@ -470,7 +472,9 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_dry_process"
+                    "coffee_plantation_patio_drying"
+
                     "pm_road_carts"
                 }
             }
@@ -849,7 +853,9 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_dry_process"
+                    "coffee_plantation_patio_drying"
+
                     "pm_road_carts"
                 }
             }
@@ -1705,7 +1711,9 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_dry_process"
+                    "coffee_plantation_patio_drying"
+
                     "pm_road_carts"
                 }
             }
@@ -1822,7 +1830,8 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_dry_process"
+                    "coffee_plantation_patio_drying"
                     "pm_road_carts"
                 }
             }
@@ -1918,7 +1927,9 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_dry_process"
+                    "coffee_plantation_patio_drying"
+
                     "pm_road_carts"
                 }
             }
@@ -2164,7 +2175,9 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_dry_process"
+                    "coffee_plantation_patio_drying"
+
                     "pm_road_carts"
                 }
             }
@@ -2213,7 +2226,9 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_dry_process"
+                    "coffee_plantation_patio_drying"
+
                     "pm_road_carts"
                 }
             }
@@ -2615,6 +2630,7 @@
                 reserves = 1
                 activate_production_methods = {
                     "default_building_tea_plantation"
+
                     "pm_steam_rail_transport"
                 }
             }
@@ -2775,6 +2791,8 @@
                 reserves = 1
                 activate_production_methods = {
                     "default_building_tobacco_plantation"
+                    "molds"
+                    "lectors_tobacco"
                     "pm_steam_rail_transport"
                 }
             }
@@ -3086,7 +3104,9 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_dry_process"
+                    "coffee_plantation_patio_drying"
+
                     "pm_steam_rail_transport"
                 }
             }
@@ -3380,6 +3400,8 @@
                 reserves = 1
                 activate_production_methods = {
                     "default_building_tobacco_plantation"
+                    "molds"
+                    "lectors_tobacco"
                     "pm_steam_rail_transport"
                 }
             }
@@ -3756,7 +3778,9 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_dry_process"
+                    "coffee_plantation_patio_drying"
+
                     "pm_road_carts"
                 }
             }
@@ -3839,14 +3863,15 @@
                 add_ownership = {
                     building = {
                         type = "building_manor_house"
-                        country = "c:FRA"
+                        country = "c:YFF"
                         levels = 2
-                        region = "STATE_ILE_DE_FRANCE"
+                        region = "STATE_HAUSALAND"
                     }
                 }
                 reserves = 1
                 activate_production_methods = {
                     "default_building_sugar_plantation"
+                    "vacuum_pan_sugar"
                     "pm_road_carts"
                 }
             }
@@ -3932,7 +3957,6 @@
                     "pm_anchorage"
                 }
             }
-
             create_building = {
                 building = "building_government_administration"
                 add_ownership = {
@@ -3952,7 +3976,6 @@
 
         }
     }
-
     s:STATE_SIERRA_LEONE = {
         region_state:RDD = {
             create_building = {
@@ -4003,7 +4026,6 @@
             }
         }
     }
-
     s:STATE_VOLTA = {
         region_state:RDD = {
             create_building = {
@@ -4022,7 +4044,7 @@
                     "pm_secular_bureaucrats"
                 }
             }
-            create_building={
+            create_building = {
                 building = "building_wheat_farm"
                 add_ownership = {
                     building = {
@@ -4196,8 +4218,10 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
-                    "pm_road_carts"
+                    "coffee_plantation_wet_process_manual"
+                    "coffee_plantation_patio_drying"
+                    "pm_steam_rail_transport"
+
                 }
             }
             create_building = {
@@ -4360,6 +4384,7 @@
                 reserves = 1
                 activate_production_methods = {
                     "default_building_sugar_plantation"
+                    "vacuum_pan_sugar"
                     "pm_steam_rail_transport"
                 }
             }
@@ -4526,7 +4551,8 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "default_building_coffee_plantation"
+                    "coffee_plantation_wet_process_manual"
+                    "coffee_plantation_patio_drying"
                     "pm_steam_rail_transport"
                 }
             }
