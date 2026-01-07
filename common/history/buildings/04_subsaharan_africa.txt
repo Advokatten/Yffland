@@ -160,7 +160,7 @@
                 reserves = 1
                 activate_production_methods = {
 
-                    "coffee_plantation_wet_process_manual"
+                    "coffee_plantation_dry_process"
                     "coffee_plantation_patio_drying"
                     "pm_steam_rail_transport"
                 }
@@ -3326,7 +3326,7 @@
                 building = "building_tooling_workshops"
                 add_ownership = {
                     company = {
-                        type = company_bad_dragons
+                        type = company_bank
                         country = "c:YFF"
                         levels = 10
                         region = "STATE_HAUSALAND"
@@ -4218,7 +4218,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "coffee_plantation_wet_process_manual"
+                    "coffee_plantation_dry_process"
                     "coffee_plantation_patio_drying"
                     "pm_steam_rail_transport"
 
@@ -4551,7 +4551,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    "coffee_plantation_wet_process_manual"
+                    "coffee_plantation_dry_process"
                     "coffee_plantation_patio_drying"
                     "pm_steam_rail_transport"
                 }
