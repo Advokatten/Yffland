@@ -77,7 +77,7 @@
         create_military_formation = {
             type = fleet
             hq_region = sr:region_niger
-            name = "Navy Tasnkforce 1"
+            name = "Navy Taskforce 1"
             combat_unit = {
                 type = unit_type:combat_unit_type_frigate
                 state_region = s:STATE_BENIN

@@ -3373,7 +3373,7 @@
                 }
             }
             create_building={
-                building="building_artillery_foundries"
+                building="building_artillery_foundrie"
                 add_ownership={
                     country={
                         country="c:YFF"

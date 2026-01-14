@@ -1,36 +1,18 @@
-﻿l_english: god_grace_modifier:0 "By God's Grace"
-  god_grace_modifier_desc:0 "A sacred mandate invoked to legitimize rule, attract loyal subjects, and bind diverse peoples under a shared blessing."
-
-l_english:
- YFF:0 "Yiffia"
- YFF_ADJ:0 "Yiffian"
-
-
-
-
-l_english:
- RDD:0 "Redditstan"
- RDD_ADJ:0 "Redditstani"
-
-
-
-
-
-
-l_english:
-
-company_bank: "Bank of Yiffia"
-company_newspaper: "Yiffia Today"
-company_bad_dragons: "DeWalt"
-company_rare_hole: "Metaller INC"
-company_metal_banger: "Gruven AS"
-company_møbelringen: "Møbelringen"
-company_agriculture: "Meny"
-company_foods: "Rema 1000"
-company_bank_reddit: "Reddit Gold"
-company_metals: "Gruvesen & co"
-company_rare_earth: "Gruver INC"
-company_ikea: "IKEA"
-company_reddit_newspaper: "Anime Titties"
-company_tooling: "Reddit INC"
-
+﻿l_english: YFF:0 "Yiffia"
+  YFF_ADJ:0 "Yiffian"
+  RDD:0 "Redditstan"
+  RDD_ADJ:0 "Redditstani"
+  company_bank:0 "Bank of Yiffia"
+  company_newspaper:0 "Yiffia Today"
+  company_bad_dragons:0 "DeWalt"
+  company_rare_hole:0 "Metaller INC"
+  company_metal_banger:0 "Gruven AS"
+  company_møbelringen:0 "Møbelringen"
+  company_agriculture:0 "Meny"
+  company_foods:0 "Rema 1000"
+  company_bank_reddit:0 "Reddit Gold"
+  company_metals:0 "Gruvesen & co"
+  company_rare_earth:0 "Gruver INC"
+  company_ikea:0 "IKEA"
+  company_reddit_newspaper:0 "Anime Titties"
+  company_tooling:0 "Reddit INC"

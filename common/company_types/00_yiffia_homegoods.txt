@@ -7,8 +7,8 @@ company_møbelringen = {
 
     }
     building_types = {
-        building_textile_mills
-        building_furniture_manufacturies
+        building_textile_mill
+        building_furniture_manufactory
         building_glassworks
     }
     extension_building_types = {

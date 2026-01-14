@@ -12,7 +12,7 @@ company_foods = {
         building_rye_farm
         building_rice_farm
         building_maize_farm
-        buiilding_millet_farm
+        building_millet_farm
         building_livestock_ranch
     }
     extension_building_types = {
@@ -36,7 +36,7 @@ company_foods = {
     }
     possible = {
         any_scope_state = {
-
+            state_region = s:STATE_VOLTA
             is_incorporated = yes
             any_scope_building = {
                 is_building_type = building_wheat_farm
